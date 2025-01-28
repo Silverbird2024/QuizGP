@@ -193,6 +193,48 @@ neoGSheetsLoadCell($App.googleSheet,"option3e","f",3,null);
 
 neoGSheetsLoadCell($App.googleSheet,"option3f","g",3,null);
 
+neoGSheetsLoadCell($App.googleSheet,"question4","a",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option4a","b",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option4b","c",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option4c","d",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option4d","e",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option4e","f",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option4f","g",4,null);
+
+neoGSheetsLoadCell($App.googleSheet,"question5","a",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option5a","b",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option5b","c",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option5c","d",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option5d","e",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option5e","f",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option5f","g",5,null);
+
+neoGSheetsLoadCell($App.googleSheet,"question6","a",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option6a","b",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option6b","c",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option6c","d",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option6d","e",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option6e","f",6,null);
+
+neoGSheetsLoadCell($App.googleSheet,"option6f","g",6,null);
+
 $App.loaded = "loaded";};
 $scope.Ellipse2_click = function() {$scope.HideObject("show1","",0);
 $scope.HideObject("show2","",0);
