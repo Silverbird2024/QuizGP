@@ -226,7 +226,7 @@ $scope.HideObject("b11","",0);
 $scope.HideObject("b12","",0);
 $App.qt = $scope.Calculate($App.qt+"+"+$App.sk3,-1);
 $App.q3d = "Sorry in-correct";};
-$scope.PushButton8_click = function() {$scope.GotoPage( "Page04" );};
+$scope.PushButton8_click = function() {$scope.GotoPage( "Home" );};
 });
 NeoApp.controller("NewDialog_Ctrl", function($scope,$rootScope,$modalInstance,$filter,$window) {
  $scope.CloseDialog = function() {
