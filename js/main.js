@@ -16,7 +16,6 @@ $scope.HideObject("show10","",0);
 $scope.HideObject("show11","",0);
 $scope.HideObject("show12","",0);
 $scope.HideObject("show100","",0);
-$scope.HideObject("Container1","",0);
 $App.question1 = localStorage.getItem("question1");
 $App.option1a = localStorage.getItem("option1a");
 $App.option1b = localStorage.getItem("option1b");
