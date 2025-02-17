@@ -1103,6 +1103,7 @@ if($App.NAB["Quiz02"]){$App.NAB["Quiz02"].click();}else{$("#"+"Quiz02").click();
 } else {
 };};
 $scope.PushButton3_click = function() {$scope.ShowObject("Container1","",0);};
+$scope.PushButton5_click = function() {window.document.location.reload();};
 });
 NeoApp.controller("LandingPage_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
