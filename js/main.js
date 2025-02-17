@@ -96,146 +96,147 @@ function debounce(func,wait,immediate){var timeout;return function(){var context
 NeoApp.controller("Home_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 1;
 $App.NAB.PageID = "Home";
-$scope.Quiz01_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X";
-$App.Quiz = "This is Quiz one";
-$scope.SetObjectStyle("Quiz01","background-color","#ADFF2F");
+$scope.Quiz03_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X";
+$App.Quiz = "This is Quiz Three";
+$scope.SetObjectStyle("Quiz03","background-color","#ADFF2F");
+$scope.SetObjectStyle("Quiz03","background-color","#ADFF2F");
 $scope.SetObjectStyle("Quiz02","background-color","#DCDCDC");
-$scope.SetObjectStyle("Quiz03","background-color","#DCDCDC");
-neoGSheetsLoadCell($App.googleSheet,"question1","a",1,null);
+$scope.SetObjectStyle("Quiz01","background-color","#DCDCDC");
+neoGSheetsLoadCell($App.googleSheet,"question1","a",25,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1a","b",1,null);
+neoGSheetsLoadCell($App.googleSheet,"option1a","b",25,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1b","c",1,null);
+neoGSheetsLoadCell($App.googleSheet,"option1b","c",25,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1c","d",1,null);
+neoGSheetsLoadCell($App.googleSheet,"option1c","d",25,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1d","e",1,null);
+neoGSheetsLoadCell($App.googleSheet,"option1d","e",25,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question2","a",2,null);
+neoGSheetsLoadCell($App.googleSheet,"question2","a",26,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2a","b",2,null);
+neoGSheetsLoadCell($App.googleSheet,"option2a","b",26,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2b","c",2,null);
+neoGSheetsLoadCell($App.googleSheet,"option2b","c",26,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2c","d",2,null);
+neoGSheetsLoadCell($App.googleSheet,"option2c","d",26,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2d","e",2,null);
+neoGSheetsLoadCell($App.googleSheet,"option2d","e",26,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question3","a",3,null);
+neoGSheetsLoadCell($App.googleSheet,"question3","a",27,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3a","b",3,null);
+neoGSheetsLoadCell($App.googleSheet,"option3a","b",27,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3b","c",3,null);
+neoGSheetsLoadCell($App.googleSheet,"option3b","c",27,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3c","d",3,null);
+neoGSheetsLoadCell($App.googleSheet,"option3c","d",27,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3d","e",3,null);
+neoGSheetsLoadCell($App.googleSheet,"option3d","e",27,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question4","a",4,null);
+neoGSheetsLoadCell($App.googleSheet,"question4","a",28,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4a","b",4,null);
+neoGSheetsLoadCell($App.googleSheet,"option4a","b",28,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4b","c",4,null);
+neoGSheetsLoadCell($App.googleSheet,"option4b","c",28,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4c","d",4,null);
+neoGSheetsLoadCell($App.googleSheet,"option4c","d",28,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4d","e",4,null);
+neoGSheetsLoadCell($App.googleSheet,"option4d","e",28,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question5","a",5,null);
+neoGSheetsLoadCell($App.googleSheet,"question5","a",29,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5a","b",5,null);
+neoGSheetsLoadCell($App.googleSheet,"option5a","b",29,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5b","c",5,null);
+neoGSheetsLoadCell($App.googleSheet,"option5b","c",29,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5c","d",5,null);
+neoGSheetsLoadCell($App.googleSheet,"option5c","d",29,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5d","e",5,null);
+neoGSheetsLoadCell($App.googleSheet,"option5d","e",29,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5e","f",5,null);
+neoGSheetsLoadCell($App.googleSheet,"option5e","f",29,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question6","a",6,null);
+neoGSheetsLoadCell($App.googleSheet,"question6","a",30,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6a","b",6,null);
+neoGSheetsLoadCell($App.googleSheet,"option6a","b",30,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6b","c",6,null);
+neoGSheetsLoadCell($App.googleSheet,"option6b","c",30,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6c","d",6,null);
+neoGSheetsLoadCell($App.googleSheet,"option6c","d",30,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6d","e",6,null);
+neoGSheetsLoadCell($App.googleSheet,"option6d","e",30,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6e","f",6,null);
+neoGSheetsLoadCell($App.googleSheet,"option6e","f",30,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question7","a",7,null);
+neoGSheetsLoadCell($App.googleSheet,"question7","a",31,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7a","b",7,null);
+neoGSheetsLoadCell($App.googleSheet,"option7a","b",31,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7b","c",7,null);
+neoGSheetsLoadCell($App.googleSheet,"option7b","c",31,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7c","d",7,null);
+neoGSheetsLoadCell($App.googleSheet,"option7c","d",31,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7d","e",7,null);
+neoGSheetsLoadCell($App.googleSheet,"option7d","e",31,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7e","f",7,null);
+neoGSheetsLoadCell($App.googleSheet,"option7e","f",31,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question8","a",8,null);
+neoGSheetsLoadCell($App.googleSheet,"question8","a",32,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8a","b",8,null);
+neoGSheetsLoadCell($App.googleSheet,"option8a","b",32,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8b","c",8,null);
+neoGSheetsLoadCell($App.googleSheet,"option8b","c",32,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8c","d",8,null);
+neoGSheetsLoadCell($App.googleSheet,"option8c","d",32,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8d","e",8,null);
+neoGSheetsLoadCell($App.googleSheet,"option8d","e",32,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8e","f",8,null);
+neoGSheetsLoadCell($App.googleSheet,"option8e","f",32,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question9","a",9,null);
+neoGSheetsLoadCell($App.googleSheet,"question9","a",33,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9a","b",9,null);
+neoGSheetsLoadCell($App.googleSheet,"option9a","b",33,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9b","c",9,null);
+neoGSheetsLoadCell($App.googleSheet,"option9b","c",33,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9c","d",9,null);
+neoGSheetsLoadCell($App.googleSheet,"option9c","d",33,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9d","e",9,null);
+neoGSheetsLoadCell($App.googleSheet,"option9d","e",33,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9e","f",9,null);
+neoGSheetsLoadCell($App.googleSheet,"option9e","f",33,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question10","a",10,null);
+neoGSheetsLoadCell($App.googleSheet,"question10","a",34,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10a","b",10,null);
+neoGSheetsLoadCell($App.googleSheet,"option10a","b",34,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10b","c",10,null);
+neoGSheetsLoadCell($App.googleSheet,"option10b","c",34,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10c","d",10,null);
+neoGSheetsLoadCell($App.googleSheet,"option10c","d",34,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10d","e",10,null);
+neoGSheetsLoadCell($App.googleSheet,"option10d","e",34,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10e","f",10,null);
+neoGSheetsLoadCell($App.googleSheet,"option10e","f",34,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question11","a",11,null);
+neoGSheetsLoadCell($App.googleSheet,"question11","a",35,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11a","b",11,null);
+neoGSheetsLoadCell($App.googleSheet,"option11a","b",35,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11b","c",11,null);
+neoGSheetsLoadCell($App.googleSheet,"option11b","c",35,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11c","d",11,null);
+neoGSheetsLoadCell($App.googleSheet,"option11c","d",35,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11d","e",11,null);
+neoGSheetsLoadCell($App.googleSheet,"option11d","e",35,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11e","f",11,null);
+neoGSheetsLoadCell($App.googleSheet,"option11e","f",35,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question12","a",12,null);
+neoGSheetsLoadCell($App.googleSheet,"question12","a",36,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12a","b",12,null);
+neoGSheetsLoadCell($App.googleSheet,"option12a","b",36,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12b","c",12,null);
+neoGSheetsLoadCell($App.googleSheet,"option12b","c",36,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12c","d",12,null);
+neoGSheetsLoadCell($App.googleSheet,"option12c","d",36,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12d","e",12,null);
+neoGSheetsLoadCell($App.googleSheet,"option12d","e",36,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12e","f",12,null);
+neoGSheetsLoadCell($App.googleSheet,"option12e","f",36,null);
 
 localStorage.setItem("question1",$App.question1);
 localStorage.setItem("option1a",$App.option1a);
@@ -681,147 +682,282 @@ $App.option12e = localStorage.getItem("option12e");
 $App.loaded = "loaded";
 $scope.GotoPage( "Page01" );
 $scope.GotoPage( "Home" );};
-$scope.Quiz03_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X";
-$App.Quiz = "This is Quiz Three";
-$scope.SetObjectStyle("Quiz03","background-color","#ADFF2F");
-$scope.SetObjectStyle("Quiz03","background-color","#ADFF2F");
+$scope.Startbutton_click = function() {$scope.HideObject("sd1","",0);
+$scope.HideObject("sd2","",0);
+$scope.HideObject("sd3","",0);
+$scope.HideObject("sd4","",0);
+$scope.HideObject("sd5","",0);
+$scope.HideObject("sd6","",0);
+$scope.HideObject("sd7","",0);
+$scope.HideObject("sd8","",0);
+$scope.HideObject("sd9","",0);
+$scope.HideObject("sd10","",0);
+$scope.HideObject("sd11","",0);
+$scope.HideObject("sd12","",0);
+$scope.ShowObject("b1","",0);
+$scope.ShowObject("b2","",0);
+$scope.ShowObject("b3","",0);
+$scope.ShowObject("b4","",0);
+$scope.ShowObject("b5","",0);
+$scope.ShowObject("b6","",0);
+$scope.ShowObject("b7","",0);
+$scope.ShowObject("b8","",0);
+$scope.ShowObject("b9","",0);
+$scope.ShowObject("b10","",0);
+$scope.ShowObject("b11","",0);
+$scope.ShowObject("b12","",0);
+$scope.ShowObject("b13","",0);
+$scope.ShowObject("b14","",0);
+$scope.ShowObject("b15","",0);
+$scope.ShowObject("b16","",0);
+$scope.ShowObject("b17","",0);
+$scope.ShowObject("b18","",0);
+$scope.ShowObject("b19","",0);
+$scope.ShowObject("b20","",0);
+$scope.ShowObject("b21","",0);
+$scope.ShowObject("b22","",0);
+$scope.ShowObject("b23","",0);
+$scope.ShowObject("b24","",0);
+$scope.ShowObject("b25","",0);
+$scope.ShowObject("b26","",0);
+$scope.ShowObject("b27","",0);
+$scope.ShowObject("b28","",0);
+$scope.ShowObject("b29","",0);
+$scope.ShowObject("b30","",0);
+$scope.ShowObject("b31","",0);
+$scope.ShowObject("b32","",0);
+$scope.ShowObject("b33","",0);
+$scope.ShowObject("b34","",0);
+$scope.ShowObject("b35","",0);
+$scope.ShowObject("b36","",0);
+$scope.ShowObject("b37","",0);
+$scope.ShowObject("b38","",0);
+$scope.ShowObject("b39","",0);
+$scope.ShowObject("b40","",0);
+$scope.ShowObject("b41","",0);
+$scope.ShowObject("b42","",0);
+$scope.ShowObject("b43","",0);
+$scope.ShowObject("b44","",0);
+$scope.ShowObject("b45","",0);
+$scope.ShowObject("b46","",0);
+$scope.ShowObject("b47","",0);
+$scope.ShowObject("b48","",0);
+$scope.ShowObject("b49","",0);
+$scope.ShowObject("b50","",0);
+$scope.ShowObject("b51","",0);
+$scope.ShowObject("b52","",0);
+$App.q1d = "";
+$App.q2d = "";
+$App.q3d = "";
+$App.q4d = "";
+$App.q5d = "";
+$App.q6d = "";
+$App.q7d = "";
+$App.q8d = "";
+$App.q9d = "";
+$App.q10d = "";
+$App.q11d = "";
+$App.q12d = "";
+$scope.HideObject("next1","",0);
+$scope.HideObject("next2","",0);
+$scope.HideObject("next3","",0);
+$scope.HideObject("next4","",0);
+$scope.HideObject("next5","",0);
+$scope.HideObject("next6","",0);
+$scope.HideObject("next7","",0);
+$scope.HideObject("next8","",0);
+$scope.HideObject("next9","",0);
+$scope.HideObject("next10","",0);
+$scope.HideObject("next11","",0);
+$scope.HideObject("next12","",0);
+$scope.GotoPage( "Page01" );};
+$scope.PushButton30_click = function() {$scope.ShowObject("show1","",0);
+$scope.ShowObject("show2","",0);
+$scope.ShowObject("show3","",0);
+$scope.ShowObject("show4","",0);
+$scope.ShowObject("show5","",0);
+$scope.ShowObject("show6","",0);
+$scope.ShowObject("show7","",0);
+$scope.ShowObject("show8","",0);
+$scope.ShowObject("show9","",0);
+$scope.ShowObject("show10","",0);
+$scope.ShowObject("show11","",0);
+$scope.ShowObject("show12","",0);
+$scope.ShowObject("show100","",0);};
+$scope.PushButton31_click = function() {$scope.HideObject("show1","",0);
+$scope.HideObject("show2","",0);
+$scope.HideObject("show3","",0);
+$scope.HideObject("show4","",0);
+$scope.HideObject("show5","",0);
+$scope.HideObject("show6","",0);
+$scope.HideObject("show7","",0);
+$scope.HideObject("show8","",0);
+$scope.HideObject("show9","",0);
+$scope.HideObject("show10","",0);
+$scope.HideObject("show11","",0);
+$scope.HideObject("show12","",0);
+$scope.HideObject("show100","",0);};
+$scope.PushButton32_click = function() {window.document.location.reload();
+$scope.GotoPage( "Home" );};
+$scope.Dropdown1_change = function(value) {$App.SelectIndustry = value;
+if ($App.SelectIndustry == "GPSR- 12 Question Genaric Quiz?") {
+if($App.NAB["Quiz01"]){$App.NAB["Quiz01"].click();}else{$("#"+"Quiz01").click();}
+} else {
+};
+if ($App.SelectIndustry == "GPSR- 12 Question Textile Industry Quiz?") {
+if($App.NAB["Quiz02"]){$App.NAB["Quiz02"].click();}else{$("#"+"Quiz02").click();}
+} else {
+};
+if ($App.SelectIndustry == "GPSR- 12 Question Genaric Quiz?") {
+if($App.NAB["Quiz01"]){$App.NAB["Quiz01"].click();}else{$("#"+"Quiz01").click();}
+} else {
+};
+if ($App.SelectIndustry == "GPSR- 12 Question Textile Industry Quiz?") {
+if($App.NAB["Quiz02"]){$App.NAB["Quiz02"].click();}else{$("#"+"Quiz02").click();}
+} else {
+};};
+$scope.PushButton3_click = function() {$scope.ShowObject("Container1","",0);};
+$scope.PushButton5_click = function() {window.document.location.reload();};
+$scope.Quiz01_click = function() {$App.googleSheet = "https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X";
+$App.Quiz = "This is Quiz one";
+$scope.SetObjectStyle("Quiz01","background-color","#ADFF2F");
 $scope.SetObjectStyle("Quiz02","background-color","#DCDCDC");
-$scope.SetObjectStyle("Quiz01","background-color","#DCDCDC");
-neoGSheetsLoadCell($App.googleSheet,"question1","a",25,null);
+$scope.SetObjectStyle("Quiz03","background-color","#DCDCDC");
+neoGSheetsLoadCell($App.googleSheet,"question1","a",1,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1a","b",25,null);
+neoGSheetsLoadCell($App.googleSheet,"option1a","b",1,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1b","c",25,null);
+neoGSheetsLoadCell($App.googleSheet,"option1b","c",1,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1c","d",25,null);
+neoGSheetsLoadCell($App.googleSheet,"option1c","d",1,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option1d","e",25,null);
+neoGSheetsLoadCell($App.googleSheet,"option1d","e",1,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question2","a",26,null);
+neoGSheetsLoadCell($App.googleSheet,"question2","a",2,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2a","b",26,null);
+neoGSheetsLoadCell($App.googleSheet,"option2a","b",2,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2b","c",26,null);
+neoGSheetsLoadCell($App.googleSheet,"option2b","c",2,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2c","d",26,null);
+neoGSheetsLoadCell($App.googleSheet,"option2c","d",2,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option2d","e",26,null);
+neoGSheetsLoadCell($App.googleSheet,"option2d","e",2,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question3","a",27,null);
+neoGSheetsLoadCell($App.googleSheet,"question3","a",3,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3a","b",27,null);
+neoGSheetsLoadCell($App.googleSheet,"option3a","b",3,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3b","c",27,null);
+neoGSheetsLoadCell($App.googleSheet,"option3b","c",3,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3c","d",27,null);
+neoGSheetsLoadCell($App.googleSheet,"option3c","d",3,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option3d","e",27,null);
+neoGSheetsLoadCell($App.googleSheet,"option3d","e",3,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question4","a",28,null);
+neoGSheetsLoadCell($App.googleSheet,"question4","a",4,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4a","b",28,null);
+neoGSheetsLoadCell($App.googleSheet,"option4a","b",4,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4b","c",28,null);
+neoGSheetsLoadCell($App.googleSheet,"option4b","c",4,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4c","d",28,null);
+neoGSheetsLoadCell($App.googleSheet,"option4c","d",4,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option4d","e",28,null);
+neoGSheetsLoadCell($App.googleSheet,"option4d","e",4,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question5","a",29,null);
+neoGSheetsLoadCell($App.googleSheet,"question5","a",5,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5a","b",29,null);
+neoGSheetsLoadCell($App.googleSheet,"option5a","b",5,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5b","c",29,null);
+neoGSheetsLoadCell($App.googleSheet,"option5b","c",5,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5c","d",29,null);
+neoGSheetsLoadCell($App.googleSheet,"option5c","d",5,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5d","e",29,null);
+neoGSheetsLoadCell($App.googleSheet,"option5d","e",5,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option5e","f",29,null);
+neoGSheetsLoadCell($App.googleSheet,"option5e","f",5,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question6","a",30,null);
+neoGSheetsLoadCell($App.googleSheet,"question6","a",6,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6a","b",30,null);
+neoGSheetsLoadCell($App.googleSheet,"option6a","b",6,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6b","c",30,null);
+neoGSheetsLoadCell($App.googleSheet,"option6b","c",6,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6c","d",30,null);
+neoGSheetsLoadCell($App.googleSheet,"option6c","d",6,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6d","e",30,null);
+neoGSheetsLoadCell($App.googleSheet,"option6d","e",6,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option6e","f",30,null);
+neoGSheetsLoadCell($App.googleSheet,"option6e","f",6,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question7","a",31,null);
+neoGSheetsLoadCell($App.googleSheet,"question7","a",7,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7a","b",31,null);
+neoGSheetsLoadCell($App.googleSheet,"option7a","b",7,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7b","c",31,null);
+neoGSheetsLoadCell($App.googleSheet,"option7b","c",7,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7c","d",31,null);
+neoGSheetsLoadCell($App.googleSheet,"option7c","d",7,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7d","e",31,null);
+neoGSheetsLoadCell($App.googleSheet,"option7d","e",7,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option7e","f",31,null);
+neoGSheetsLoadCell($App.googleSheet,"option7e","f",7,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question8","a",32,null);
+neoGSheetsLoadCell($App.googleSheet,"question8","a",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8a","b",32,null);
+neoGSheetsLoadCell($App.googleSheet,"option8a","b",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8b","c",32,null);
+neoGSheetsLoadCell($App.googleSheet,"option8b","c",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8c","d",32,null);
+neoGSheetsLoadCell($App.googleSheet,"option8c","d",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8d","e",32,null);
+neoGSheetsLoadCell($App.googleSheet,"option8d","e",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option8e","f",32,null);
+neoGSheetsLoadCell($App.googleSheet,"option8e","f",8,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question9","a",33,null);
+neoGSheetsLoadCell($App.googleSheet,"question9","a",9,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9a","b",33,null);
+neoGSheetsLoadCell($App.googleSheet,"option9a","b",9,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9b","c",33,null);
+neoGSheetsLoadCell($App.googleSheet,"option9b","c",9,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9c","d",33,null);
+neoGSheetsLoadCell($App.googleSheet,"option9c","d",9,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9d","e",33,null);
+neoGSheetsLoadCell($App.googleSheet,"option9d","e",9,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option9e","f",33,null);
+neoGSheetsLoadCell($App.googleSheet,"option9e","f",9,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question10","a",34,null);
+neoGSheetsLoadCell($App.googleSheet,"question10","a",10,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10a","b",34,null);
+neoGSheetsLoadCell($App.googleSheet,"option10a","b",10,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10b","c",34,null);
+neoGSheetsLoadCell($App.googleSheet,"option10b","c",10,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10c","d",34,null);
+neoGSheetsLoadCell($App.googleSheet,"option10c","d",10,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10d","e",34,null);
+neoGSheetsLoadCell($App.googleSheet,"option10d","e",10,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option10e","f",34,null);
+neoGSheetsLoadCell($App.googleSheet,"option10e","f",10,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question11","a",35,null);
+neoGSheetsLoadCell($App.googleSheet,"question11","a",11,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11a","b",35,null);
+neoGSheetsLoadCell($App.googleSheet,"option11a","b",11,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11b","c",35,null);
+neoGSheetsLoadCell($App.googleSheet,"option11b","c",11,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11c","d",35,null);
+neoGSheetsLoadCell($App.googleSheet,"option11c","d",11,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11d","e",35,null);
+neoGSheetsLoadCell($App.googleSheet,"option11d","e",11,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option11e","f",35,null);
+neoGSheetsLoadCell($App.googleSheet,"option11e","f",11,null);
 
-neoGSheetsLoadCell($App.googleSheet,"question12","a",36,null);
+neoGSheetsLoadCell($App.googleSheet,"question12","a",12,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12a","b",36,null);
+neoGSheetsLoadCell($App.googleSheet,"option12a","b",12,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12b","c",36,null);
+neoGSheetsLoadCell($App.googleSheet,"option12b","c",12,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12c","d",36,null);
+neoGSheetsLoadCell($App.googleSheet,"option12c","d",12,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12d","e",36,null);
+neoGSheetsLoadCell($App.googleSheet,"option12d","e",12,null);
 
-neoGSheetsLoadCell($App.googleSheet,"option12e","f",36,null);
+neoGSheetsLoadCell($App.googleSheet,"option12e","f",12,null);
 
 localStorage.setItem("question1",$App.question1);
 localStorage.setItem("option1a",$App.option1a);
@@ -974,135 +1110,7 @@ $App.option12e = localStorage.getItem("option12e");
 $App.loaded = "loaded";
 $scope.GotoPage( "Page01" );
 $scope.GotoPage( "Home" );};
-$scope.Startbutton_click = function() {$scope.HideObject("sd1","",0);
-$scope.HideObject("sd2","",0);
-$scope.HideObject("sd3","",0);
-$scope.HideObject("sd4","",0);
-$scope.HideObject("sd5","",0);
-$scope.HideObject("sd6","",0);
-$scope.HideObject("sd7","",0);
-$scope.HideObject("sd8","",0);
-$scope.HideObject("sd9","",0);
-$scope.HideObject("sd10","",0);
-$scope.HideObject("sd11","",0);
-$scope.HideObject("sd12","",0);
-$scope.ShowObject("b1","",0);
-$scope.ShowObject("b2","",0);
-$scope.ShowObject("b3","",0);
-$scope.ShowObject("b4","",0);
-$scope.ShowObject("b5","",0);
-$scope.ShowObject("b6","",0);
-$scope.ShowObject("b7","",0);
-$scope.ShowObject("b8","",0);
-$scope.ShowObject("b9","",0);
-$scope.ShowObject("b10","",0);
-$scope.ShowObject("b11","",0);
-$scope.ShowObject("b12","",0);
-$scope.ShowObject("b13","",0);
-$scope.ShowObject("b14","",0);
-$scope.ShowObject("b15","",0);
-$scope.ShowObject("b16","",0);
-$scope.ShowObject("b17","",0);
-$scope.ShowObject("b18","",0);
-$scope.ShowObject("b19","",0);
-$scope.ShowObject("b20","",0);
-$scope.ShowObject("b21","",0);
-$scope.ShowObject("b22","",0);
-$scope.ShowObject("b23","",0);
-$scope.ShowObject("b24","",0);
-$scope.ShowObject("b25","",0);
-$scope.ShowObject("b26","",0);
-$scope.ShowObject("b27","",0);
-$scope.ShowObject("b28","",0);
-$scope.ShowObject("b29","",0);
-$scope.ShowObject("b30","",0);
-$scope.ShowObject("b31","",0);
-$scope.ShowObject("b32","",0);
-$scope.ShowObject("b33","",0);
-$scope.ShowObject("b34","",0);
-$scope.ShowObject("b35","",0);
-$scope.ShowObject("b36","",0);
-$scope.ShowObject("b37","",0);
-$scope.ShowObject("b38","",0);
-$scope.ShowObject("b39","",0);
-$scope.ShowObject("b40","",0);
-$scope.ShowObject("b41","",0);
-$scope.ShowObject("b42","",0);
-$scope.ShowObject("b43","",0);
-$scope.ShowObject("b44","",0);
-$scope.ShowObject("b45","",0);
-$scope.ShowObject("b46","",0);
-$scope.ShowObject("b47","",0);
-$scope.ShowObject("b48","",0);
-$scope.ShowObject("b49","",0);
-$scope.ShowObject("b50","",0);
-$scope.ShowObject("b51","",0);
-$scope.ShowObject("b52","",0);
-$App.q1d = "";
-$App.q2d = "";
-$App.q3d = "";
-$App.q4d = "";
-$App.q5d = "";
-$App.q6d = "";
-$App.q7d = "";
-$App.q8d = "";
-$App.q9d = "";
-$App.q10d = "";
-$App.q11d = "";
-$App.q12d = "";
-$scope.HideObject("next1","",0);
-$scope.HideObject("next2","",0);
-$scope.HideObject("next3","",0);
-$scope.HideObject("next4","",0);
-$scope.HideObject("next5","",0);
-$scope.HideObject("next6","",0);
-$scope.HideObject("next7","",0);
-$scope.HideObject("next8","",0);
-$scope.HideObject("next9","",0);
-$scope.HideObject("next10","",0);
-$scope.HideObject("next11","",0);
-$scope.HideObject("next12","",0);
-$scope.GotoPage( "Page01" );};
-$scope.PushButton30_click = function() {$scope.ShowObject("show1","",0);
-$scope.ShowObject("show2","",0);
-$scope.ShowObject("show3","",0);
-$scope.ShowObject("show4","",0);
-$scope.ShowObject("show5","",0);
-$scope.ShowObject("show6","",0);
-$scope.ShowObject("show7","",0);
-$scope.ShowObject("show8","",0);
-$scope.ShowObject("show9","",0);
-$scope.ShowObject("show10","",0);
-$scope.ShowObject("show11","",0);
-$scope.ShowObject("show12","",0);
-$scope.ShowObject("show100","",0);};
-$scope.PushButton31_click = function() {$scope.HideObject("show1","",0);
-$scope.HideObject("show2","",0);
-$scope.HideObject("show3","",0);
-$scope.HideObject("show4","",0);
-$scope.HideObject("show5","",0);
-$scope.HideObject("show6","",0);
-$scope.HideObject("show7","",0);
-$scope.HideObject("show8","",0);
-$scope.HideObject("show9","",0);
-$scope.HideObject("show10","",0);
-$scope.HideObject("show11","",0);
-$scope.HideObject("show12","",0);
-$scope.HideObject("show100","",0);};
-$scope.PushButton32_click = function() {window.document.location.reload();
-$scope.GotoPage( "Home" );};
 $scope.PushButton1_click = function() {$scope.GotoPage( "LandingPage" );};
-$scope.Dropdown1_change = function(value) {$App.SelectIndustry = value;
-if ($App.SelectIndustry == "GPSR- 12 Question Genaric Quiz?") {
-if($App.NAB["Quiz01"]){$App.NAB["Quiz01"].click();}else{$("#"+"Quiz01").click();}
-} else {
-};
-if ($App.SelectIndustry == "GPSR- 12 Question Textile Industry Quiz?") {
-if($App.NAB["Quiz02"]){$App.NAB["Quiz02"].click();}else{$("#"+"Quiz02").click();}
-} else {
-};};
-$scope.PushButton3_click = function() {$scope.ShowObject("Container1","",0);};
-$scope.PushButton5_click = function() {window.document.location.reload();};
 });
 NeoApp.controller("LandingPage_Ctrl", function($scope,$rootScope,$route,$timeout,$filter,$window,$animate) {
 $App.NAB.PageNumber = 2;
