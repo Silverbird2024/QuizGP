@@ -848,7 +848,7 @@ GotoPage &quot;Home&quot;</click>
 							<width>209px</width>
 							<height>67px</height>
 							<style>color:#E0E0E0;font-size:13pt;font-weight:800</style>
-							<text>LABELING Regulations&lt;br&gt;13 December 2024</text>
+							<text>LABELING Regulations&lt;br&gt;13&amp;nbsp;December 2024</text>
 						</Headline>
 						<Headline id="Headline3">
 							<left>112px</left>
@@ -970,7 +970,7 @@ GotoPage &quot;Page01&quot;</click>
 							<width>157px</width>
 							<height>17px</height>
 							<style>color:white;font-size:8pt;text-align:center</style>
-							<text>V1.26&amp;nbsp; 17-2-25&lt;br&gt;&lt;br&gt;</text>
+							<text>V1.28&amp;nbsp; 22-2-25&lt;br&gt;&lt;br&gt;</text>
 						</Headline>
 						<Image id="Image4">
 							<left>16px</left>
