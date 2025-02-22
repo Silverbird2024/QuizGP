@@ -1,0 +1,3724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application>
+	<AppTitle>Untitled Application</AppTitle>
+	<AppShortName>MyApp</AppShortName>
+	<Author>Author name</Author>
+	<Version>1.0</Version>
+	<DesignDeviceName>Apple iPhone 6 Plus</DesignDeviceName>
+	<Variables>[googleSheet],[loaded],[option10a],[option10b],[option10c],[option10d],[option10e],[option11a],[option11b],[option11c],[option11d],[option11e],[option12a],[option12b],[option12c],[option12d],[option12e],[option1a],[option1b],[option1c],[option1d],[option1e],[option2a],[option2b],[option2c],[option2d],[option2e],[option3a],[option3b],[option3c],[option3d],[option3e],[option3f],[option3g],[option4a],[option4b],[option4c],[option4d],[option4e],[option4f],[option4g],[option5a],[option5b],[option5c],[option5d],[option5e],[option6a],[option6b],[option6c],[option6d],[option6e],[option7a],[option7b],[option7c],[option7d],[option7e],[option8a],[option8b],[option8c],[option8d],[option8e],[option8f],[option9a],[option9b],[option9c],[option9d],[option9e],[q10d],[q11d],[q12d],[q1d],[q1e],[q2d],[q3d],[q4d],[q5d],[q6d],[q7d],[q8d],[q9d],[qt],[qt1],[qt2],[qt3],[question1],[question10],[question11],[question12],[question2],[question3],[question4],[question5],[question6],[question7],[question8],[question9],[Quiz],[SelectIndustry],[sk1],[sk10],[sk11],[sk12],[sk2],[sk3],[sk4],[sk5],[sk6],[sk7],[sk8],[sk9]</Variables>
+	<VariablesScanned>True</VariablesScanned>
+	<PageWidth>414</PageWidth>
+	<PageHeight>736</PageHeight>
+	<AutoSizeWidth>False</AutoSizeWidth>
+	<AutoSizeHeight>False</AutoSizeHeight>
+	<HideScrollbars>False</HideScrollbars>
+	<ResponsiveSize>False</ResponsiveSize>
+	<PublishPlatform>WebApp</PublishPlatform>
+	<EmptyBuildFolder>False</EmptyBuildFolder>
+	<AppIcon>C:\Users\User\Documents\VisualNeoWeb\Libraries\img\default-icon.png</AppIcon>
+	<LanguageCode>en</LanguageCode>
+	<DisplayMode>standalone</DisplayMode>
+	<ServiceWorker>OfflineCopyOfPages</ServiceWorker>
+	<ThemeColor>#000000</ThemeColor>
+	<PwaScope>/</PwaScope>
+	<MobileOSTypes>[AndroidOS,iOS,WindowsPhoneOS]</MobileOSTypes>
+	<WindowState>normal</WindowState>
+	<TitleBar>True</TitleBar>
+	<Sizeable>True</Sizeable>
+	<MaximizeBtn>False</MaximizeBtn>
+	<MinimizeBtn>True</MinimizeBtn>
+	<SystemMenu>True</SystemMenu>
+	<ContextMenu>False</ContextMenu>
+	<AlwaysOnTop>False</AlwaysOnTop>
+	<ShowInTaskbar>True</ShowInTaskbar>
+	<SingleInstance>False</SingleInstance>
+	<ChromeKioskMode>False</ChromeKioskMode>
+	<Components>
+		<FunctionList name="Subroutines"/>
+		<LibraryList name="Libraries"/>
+		<PageList name="Main">
+			<Components>
+				<Page id="Home">
+					<style>background-color:#383838</style>
+					<pageenter>HideObject &quot;show1&quot; &quot;&quot; 0
+HideObject &quot;show2&quot; &quot;&quot; 0
+HideObject &quot;show3&quot; &quot;&quot; 0
+HideObject &quot;show4&quot; &quot;&quot; 0
+HideObject &quot;show5&quot; &quot;&quot; 0
+HideObject &quot;show6&quot; &quot;&quot; 0
+HideObject &quot;show7&quot; &quot;&quot; 0
+HideObject &quot;show8&quot; &quot;&quot; 0
+HideObject &quot;show9&quot; &quot;&quot; 0
+HideObject &quot;show10&quot; &quot;&quot; 0
+HideObject &quot;show11&quot; &quot;&quot; 0
+HideObject &quot;show12&quot; &quot;&quot; 0
+HideObject &quot;show100&quot; &quot;&quot; 0
+
+
+HideObject &quot;Container1&quot; &quot;&quot; 0
+
+
+GetItem &quot;question1&quot; [question1]
+GetItem &quot;option1a&quot; [option1a]
+GetItem &quot;option1b&quot; [option1b]
+GetItem &quot;option1c&quot; [option1c]
+GetItem &quot;option1d&quot; [option1d]
+GetItem &quot;option1e&quot; [option1e]
+
+
+
+GetItem &quot;question2&quot; [question2]
+GetItem &quot;option2a&quot; [option2a]
+GetItem &quot;option2b&quot; [option2b]
+GetItem &quot;option2c&quot; [option2c]
+GetItem &quot;option2d&quot; [option2d]
+GetItem &quot;option2e&quot; [option2e]
+
+
+GetItem &quot;question3&quot; [question3]
+GetItem &quot;option3a&quot; [option3a]
+GetItem &quot;option3b&quot; [option3b]
+GetItem &quot;option3c&quot; [option3c]
+GetItem &quot;option3d&quot; [option3d]
+GetItem &quot;option3e&quot; [option3e]
+
+
+GetItem &quot;question4&quot; [question4]
+GetItem &quot;option4a&quot; [option4a]
+GetItem &quot;option4b&quot; [option4b]
+GetItem &quot;option4c&quot; [option4c]
+GetItem &quot;option4d&quot; [option4d]
+GetItem &quot;option4e&quot; [option4e]
+
+
+GetItem &quot;question5&quot; [question5]
+GetItem &quot;option5a&quot; [option5a]
+GetItem &quot;option5b&quot; [option5b]
+GetItem &quot;option5c&quot; [option5c]
+GetItem &quot;option5d&quot; [option5d]
+GetItem &quot;option5e&quot; [option5e]
+
+
+GetItem &quot;question6&quot; [question6]
+GetItem &quot;option6a&quot; [option6a]
+GetItem &quot;option6b&quot; [option6b]
+GetItem &quot;option6c&quot; [option6c]
+GetItem &quot;option6d&quot; [option6d]
+GetItem &quot;option6e&quot; [option6e]
+
+
+GetItem &quot;question7&quot; [question7]
+GetItem &quot;option7a&quot; [option7a]
+GetItem &quot;option7b&quot; [option7b]
+GetItem &quot;option7c&quot; [option7c]
+GetItem &quot;option7d&quot; [option7d]
+GetItem &quot;option7e&quot; [option7e]
+
+
+GetItem &quot;question8&quot; [question8]
+GetItem &quot;option8a&quot; [option8a]
+GetItem &quot;option8b&quot; [option8b]
+GetItem &quot;option8c&quot; [option8c]
+GetItem &quot;option8d&quot; [option8d]
+GetItem &quot;option8e&quot; [option8e]
+
+
+
+GetItem &quot;question9&quot; [question9]
+GetItem &quot;option9a&quot; [option9a]
+GetItem &quot;option9b&quot; [option9b]
+GetItem &quot;option9c&quot; [option9c]
+GetItem &quot;option9d&quot; [option9d]
+GetItem &quot;option9e&quot; [option9e]
+
+
+
+GetItem &quot;question10&quot; [question10]
+GetItem &quot;option10a&quot; [option10a]
+GetItem &quot;option10b&quot; [option10b]
+GetItem &quot;option10c&quot; [option10c]
+GetItem &quot;option10d&quot; [option10d]
+GetItem &quot;option10e&quot; [option10e]
+
+
+
+GetItem &quot;question11&quot; [question11]
+GetItem &quot;option11a&quot; [option11a]
+GetItem &quot;option11b&quot; [option11b]
+GetItem &quot;option11c&quot; [option11c]
+GetItem &quot;option11d&quot; [option11d]
+GetItem &quot;option11e&quot; [option11e]
+
+
+GetItem &quot;question12&quot; [question12]
+GetItem &quot;option12a&quot; [option12a]
+GetItem &quot;option12b&quot; [option12b]
+GetItem &quot;option12c&quot; [option12c]
+GetItem &quot;option12d&quot; [option12d]
+GetItem &quot;option12e&quot; [option12e]</pageenter>
+					<Components>
+						<PushButton id="Quiz03">
+							<left>370px</left>
+							<top>78px</top>
+							<width>33px</width>
+							<height>37px</height>
+							<style>font-size:9pt;opacity:0.55</style>
+							<hover>opacity:0.72</hover>
+							<caption>3</caption>
+							<click>SetVar [googleSheet] &quot;https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X&quot;
+
+SetVar [Quiz] &quot;This is Quiz Three&quot;
+
+SetObjectStyle &quot;Quiz03&quot; &quot;background-color&quot; &quot;#ADFF2F&quot;
+
+
+SetObjectStyle &quot;Quiz03&quot; &quot;background-color&quot; &quot;#ADFF2F&quot;
+SetObjectStyle &quot;Quiz02&quot; &quot;background-color&quot; &quot;#DCDCDC&quot;
+SetObjectStyle &quot;Quiz01&quot; &quot;background-color&quot; &quot;#DCDCDC&quot;
+
+
+.comment question 1
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question1] &quot;a&quot; 25 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1a] &quot;b&quot; 25 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1b] &quot;c&quot; 25 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1c] &quot;d&quot; 25 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1d] &quot;e&quot; 25 &quot;&quot;
+
+
+.comment question 2
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question2] &quot;a&quot; 26 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2a] &quot;b&quot; 26 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2b] &quot;c&quot; 26 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2c] &quot;d&quot; 26 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2d] &quot;e&quot; 26 &quot;&quot;
+
+
+.comment question 3
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question3] &quot;a&quot; 27 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3a] &quot;b&quot; 27 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3b] &quot;c&quot; 27 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3c] &quot;d&quot; 27 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3d] &quot;e&quot; 27 &quot;&quot;
+
+
+.comment question 4
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question4] &quot;a&quot; 28 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4a] &quot;b&quot; 28 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4b] &quot;c&quot; 28 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4c] &quot;d&quot; 28 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4d] &quot;e&quot; 28 &quot;&quot;
+
+
+.comment question 5
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question5] &quot;a&quot; 29 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5a] &quot;b&quot; 29 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5b] &quot;c&quot; 29 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5c] &quot;d&quot; 29 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5d] &quot;e&quot; 29 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5e] &quot;f&quot; 29 &quot;&quot;
+
+
+.comment question 6
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question6] &quot;a&quot; 30 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6a] &quot;b&quot; 30 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6b] &quot;c&quot; 30 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6c] &quot;d&quot; 30 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6d] &quot;e&quot; 30 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6e] &quot;f&quot; 30 &quot;&quot;
+
+
+.comment question 7
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question7] &quot;a&quot; 31 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7a] &quot;b&quot; 31 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7b] &quot;c&quot; 31 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7c] &quot;d&quot; 31 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7d] &quot;e&quot; 31 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7e] &quot;f&quot; 31 &quot;&quot;
+
+
+.comment question 8
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question8] &quot;a&quot; 32 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8a] &quot;b&quot; 32 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8b] &quot;c&quot; 32 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8c] &quot;d&quot; 32 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8d] &quot;e&quot; 32 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8e] &quot;f&quot; 32 &quot;&quot;
+
+
+
+.comment question 9
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question9] &quot;a&quot; 33 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9a] &quot;b&quot; 33 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9b] &quot;c&quot; 33 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9c] &quot;d&quot; 33 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9d] &quot;e&quot; 33 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9e] &quot;f&quot; 33 &quot;&quot;
+
+
+.comment question 10
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question10] &quot;a&quot; 34 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10a] &quot;b&quot; 34 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10b] &quot;c&quot; 34 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10c] &quot;d&quot; 34 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10d] &quot;e&quot; 34 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10e] &quot;f&quot; 34 &quot;&quot;
+
+
+
+.comment question 11
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question11] &quot;a&quot; 35 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11a] &quot;b&quot; 35 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11b] &quot;c&quot; 35 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11c] &quot;d&quot; 35 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11d] &quot;e&quot; 35 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11e] &quot;f&quot; 35 &quot;&quot;
+
+
+.comment question 12
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question12] &quot;a&quot; 36 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12a] &quot;b&quot; 36 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12b] &quot;c&quot; 36 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12c] &quot;d&quot; 36 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12d] &quot;e&quot; 36 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12e] &quot;f&quot; 36 &quot;&quot;
+
+
+SetItem &quot;question1&quot; &quot;[question1]&quot;
+SetItem &quot;option1a&quot; &quot;[option1a]&quot;
+SetItem &quot;option1b&quot; &quot;[option1b]&quot;
+SetItem &quot;option1c&quot; &quot;[option1c]&quot;
+SetItem &quot;option1d&quot; &quot;[option1d]&quot;
+SetItem &quot;option1e&quot; &quot;[option1e]&quot;
+
+
+SetItem &quot;question2&quot; &quot;[question2]&quot;
+SetItem &quot;option2a&quot; &quot;[option2a]&quot;
+SetItem &quot;option2b&quot; &quot;[option2b]&quot;
+SetItem &quot;option2c&quot; &quot;[option2c]&quot;
+SetItem &quot;option2d&quot; &quot;[option2d]&quot;
+SetItem &quot;option2e&quot; &quot;[option2e]&quot;
+
+
+SetItem &quot;question3&quot; &quot;[question3]&quot;
+SetItem &quot;option3a&quot; &quot;[option3a]&quot;
+SetItem &quot;option3b&quot; &quot;[option3b]&quot;
+SetItem &quot;option3c&quot; &quot;[option3c]&quot;
+SetItem &quot;option3d&quot; &quot;[option3d]&quot;
+SetItem &quot;option3e&quot; &quot;[option3e]&quot;
+
+
+SetItem &quot;question4&quot; &quot;[question4]&quot;
+SetItem &quot;option4a&quot; &quot;[option4a]&quot;
+SetItem &quot;option4b&quot; &quot;[option4b]&quot;
+SetItem &quot;option4c&quot; &quot;[option4c]&quot;
+SetItem &quot;option4d&quot; &quot;[option4d]&quot;
+SetItem &quot;option4e&quot; &quot;[option4e]&quot;
+
+
+SetItem &quot;question5&quot; &quot;[question5]&quot;
+SetItem &quot;option5a&quot; &quot;[option5a]&quot;
+SetItem &quot;option5b&quot; &quot;[option5b]&quot;
+SetItem &quot;option5c&quot; &quot;[option5c]&quot;
+SetItem &quot;option5d&quot; &quot;[option5d]&quot;
+SetItem &quot;option5e&quot; &quot;[option5e]&quot;
+
+
+SetItem &quot;question6&quot; &quot;[question6]&quot;
+SetItem &quot;option6a&quot; &quot;[option6a]&quot;
+SetItem &quot;option6b&quot; &quot;[option6b]&quot;
+SetItem &quot;option6c&quot; &quot;[option6c]&quot;
+SetItem &quot;option6d&quot; &quot;[option6d]&quot;
+SetItem &quot;option6e&quot; &quot;[option6e]&quot;
+
+
+SetItem &quot;question7&quot; &quot;[question7]&quot;
+SetItem &quot;option7b&quot; &quot;[option7a]&quot;
+SetItem &quot;option7b&quot; &quot;[option7b]&quot;
+SetItem &quot;option7c&quot; &quot;[option7c]&quot;
+SetItem &quot;option7d&quot; &quot;[option7d]&quot;
+SetItem &quot;option7e&quot; &quot;[option7e]&quot;
+
+
+SetItem &quot;question8&quot; &quot;[question8]&quot;
+SetItem &quot;option8b&quot; &quot;[option8a]&quot;
+SetItem &quot;option8b&quot; &quot;[option8b]&quot;
+SetItem &quot;option8c&quot; &quot;[option8c]&quot;
+SetItem &quot;option8d&quot; &quot;[option8d]&quot;
+SetItem &quot;option8e&quot; &quot;[option8e]&quot;
+
+
+SetItem &quot;question9&quot; &quot;[question9]&quot;
+SetItem &quot;option9b&quot; &quot;[option9a]&quot;
+SetItem &quot;option9b&quot; &quot;[option9b]&quot;
+SetItem &quot;option9c&quot; &quot;[option9c]&quot;
+SetItem &quot;option9d&quot; &quot;[option9d]&quot;
+SetItem &quot;option9e&quot; &quot;[option9e]&quot;
+
+
+SetItem &quot;question10&quot; &quot;[question10]&quot;
+SetItem &quot;option10b&quot; &quot;[option10a]&quot;
+SetItem &quot;option10b&quot; &quot;[option10b]&quot;
+SetItem &quot;option10c&quot; &quot;[option10c]&quot;
+SetItem &quot;option10d&quot; &quot;[option10d]&quot;
+SetItem &quot;option10e&quot; &quot;[option10e]&quot;
+
+
+SetItem &quot;question11&quot; &quot;[question11]&quot;
+SetItem &quot;option11b&quot; &quot;[option11a]&quot;
+SetItem &quot;option11b&quot; &quot;[option11b]&quot;
+SetItem &quot;option11c&quot; &quot;[option11c]&quot;
+SetItem &quot;option11d&quot; &quot;[option11d]&quot;
+SetItem &quot;option11e&quot; &quot;[option11e]&quot;
+
+
+SetItem &quot;question12&quot; &quot;[question12]&quot;
+SetItem &quot;option12b&quot; &quot;[option12a]&quot;
+SetItem &quot;option12b&quot; &quot;[option12b]&quot;
+SetItem &quot;option12c&quot; &quot;[option12c]&quot;
+SetItem &quot;option12d&quot; &quot;[option12d]&quot;
+SetItem &quot;option12e&quot; &quot;[option12e]&quot;
+
+
+GetItem &quot;question1&quot; [question1]
+GetItem &quot;option1a&quot; [option1a]
+GetItem &quot;option1b&quot; [option1b]
+GetItem &quot;option1c&quot; [option1c]
+GetItem &quot;option1d&quot; [option1d]
+GetItem &quot;option1e&quot; [option1e]
+
+
+
+GetItem &quot;question2&quot; [question2]
+GetItem &quot;option2a&quot; [option2a]
+GetItem &quot;option2b&quot; [option2b]
+GetItem &quot;option2c&quot; [option2c]
+GetItem &quot;option2d&quot; [option2d]
+GetItem &quot;option2e&quot; [option2e]
+
+
+GetItem &quot;question3&quot; [question3]
+GetItem &quot;option3a&quot; [option3a]
+GetItem &quot;option3b&quot; [option3b]
+GetItem &quot;option3c&quot; [option3c]
+GetItem &quot;option3d&quot; [option3d]
+GetItem &quot;option3e&quot; [option3e]
+GetItem &quot;option3f&quot; [option3f]
+GetItem &quot;option3g&quot; [option3g]
+
+GetItem &quot;question4&quot; [question4]
+GetItem &quot;option4a&quot; [option4a]
+GetItem &quot;option4b&quot; [option4b]
+GetItem &quot;option4c&quot; [option4c]
+GetItem &quot;option4d&quot; [option4d]
+GetItem &quot;option4e&quot; [option4e]
+GetItem &quot;option4f&quot; [option4f]
+GetItem &quot;option4g&quot; [option4g]
+
+GetItem &quot;question5&quot; [question5]
+GetItem &quot;option5a&quot; [option5a]
+GetItem &quot;option5b&quot; [option5b]
+GetItem &quot;option5c&quot; [option5c]
+GetItem &quot;option5d&quot; [option5d]
+GetItem &quot;option5e&quot; [option5e]
+
+
+GetItem &quot;question6&quot; [question6]
+GetItem &quot;option6a&quot; [option6a]
+GetItem &quot;option6b&quot; [option6b]
+GetItem &quot;option6c&quot; [option6c]
+GetItem &quot;option6d&quot; [option6d]
+GetItem &quot;option6e&quot; [option6e]
+
+
+GetItem &quot;question7&quot; [question7]
+GetItem &quot;option7a&quot; [option7a]
+GetItem &quot;option7b&quot; [option7b]
+GetItem &quot;option7c&quot; [option7c]
+GetItem &quot;option7d&quot; [option7d]
+GetItem &quot;option7e&quot; [option7e]
+
+
+GetItem &quot;question8&quot; [question8]
+GetItem &quot;option8a&quot; [option8a]
+GetItem &quot;option8b&quot; [option8b]
+GetItem &quot;option8c&quot; [option8c]
+GetItem &quot;option8d&quot; [option8d]
+GetItem &quot;option8e&quot; [option8e]
+
+
+
+GetItem &quot;question9&quot; [question9]
+GetItem &quot;option9a&quot; [option9a]
+GetItem &quot;option9b&quot; [option9b]
+GetItem &quot;option9c&quot; [option9c]
+GetItem &quot;option9d&quot; [option9d]
+GetItem &quot;option9e&quot; [option9e]
+
+
+
+GetItem &quot;question10&quot; [question10]
+GetItem &quot;option10a&quot; [option10a]
+GetItem &quot;option10b&quot; [option10b]
+GetItem &quot;option10c&quot; [option10c]
+GetItem &quot;option10d&quot; [option10d]
+GetItem &quot;option10e&quot; [option10e]
+
+
+
+GetItem &quot;question11&quot; [question11]
+GetItem &quot;option11a&quot; [option11a]
+GetItem &quot;option11b&quot; [option11b]
+GetItem &quot;option11c&quot; [option11c]
+GetItem &quot;option11d&quot; [option11d]
+GetItem &quot;option11e&quot; [option11e]
+
+
+GetItem &quot;question12&quot; [question12]
+GetItem &quot;option12a&quot; [option12a]
+GetItem &quot;option12b&quot; [option12b]
+GetItem &quot;option12c&quot; [option12c]
+GetItem &quot;option12d&quot; [option12d]
+GetItem &quot;option12e&quot; [option12e]
+
+
+
+SetVar [loaded] &quot;loaded&quot;
+
+
+GotoPage &quot;Page01&quot;
+GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="Quiz02">
+							<left>370px</left>
+							<top>74px</top>
+							<width>30px</width>
+							<height>37px</height>
+							<style>font-size:9pt;opacity:0.55</style>
+							<hover>opacity:0.72</hover>
+							<caption>t</caption>
+							<click>SetVar [googleSheet] &quot;https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X&quot;
+
+SetVar [Quiz] &quot;This is Quiz Two&quot;
+
+SetObjectStyle &quot;Quiz02&quot; &quot;background-color&quot; &quot;#ADFF2F&quot;
+
+
+SetObjectStyle &quot;Quiz02&quot; &quot;background-color&quot; &quot;#ADFF2F&quot;
+SetObjectStyle &quot;Quiz01&quot; &quot;background-color&quot; &quot;#DCDCDC&quot;
+SetObjectStyle &quot;Quiz03&quot; &quot;background-color&quot; &quot;#DCDCDC&quot;
+
+.comment question 1
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question1] &quot;a&quot; 13 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1a] &quot;b&quot; 13 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1b] &quot;c&quot; 13 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1c] &quot;d&quot; 13 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1d] &quot;e&quot; 13 &quot;&quot;
+
+
+.comment question 2
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question2] &quot;a&quot; 14 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2a] &quot;b&quot; 14 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2b] &quot;c&quot; 14 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2c] &quot;d&quot; 14 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2d] &quot;e&quot; 14 &quot;&quot;
+
+
+.comment question 3
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question3] &quot;a&quot; 15 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3a] &quot;b&quot; 15 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3b] &quot;c&quot; 15 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3c] &quot;d&quot; 15 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3d] &quot;e&quot; 15 &quot;&quot;
+
+
+.comment question 4
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question4] &quot;a&quot; 16 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4a] &quot;b&quot; 15 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4b] &quot;c&quot; 16 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4c] &quot;d&quot; 16 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4d] &quot;e&quot; 16 &quot;&quot;
+
+
+.comment question 5
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question5] &quot;a&quot; 17 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5a] &quot;b&quot; 17 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5b] &quot;c&quot; 17 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5c] &quot;d&quot; 17 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5d] &quot;e&quot; 17 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5e] &quot;f&quot; 17 &quot;&quot;
+
+
+.comment question 6
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question6] &quot;a&quot; 18 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6a] &quot;b&quot; 18 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6b] &quot;c&quot; 18 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6c] &quot;d&quot; 18 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6d] &quot;e&quot; 18 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6e] &quot;f&quot; 18 &quot;&quot;
+
+
+.comment question 7
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question7] &quot;a&quot; 19 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7a] &quot;b&quot; 19 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7b] &quot;c&quot; 19 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7c] &quot;d&quot; 19 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7d] &quot;e&quot; 19 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7e] &quot;f&quot; 19 &quot;&quot;
+
+
+.comment question 8
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question8] &quot;a&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8a] &quot;b&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8b] &quot;c&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8c] &quot;d&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8d] &quot;e&quot; 20 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8e] &quot;f&quot; 20 &quot;&quot;
+
+
+
+.comment question 9
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question9] &quot;a&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9a] &quot;b&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9b] &quot;c&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9c] &quot;d&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9d] &quot;e&quot; 21 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9e] &quot;f&quot; 21 &quot;&quot;
+
+
+.comment question 10
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question10] &quot;a&quot; 22 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10a] &quot;b&quot; 22 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10b] &quot;c&quot; 22 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10c] &quot;d&quot; 22 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10d] &quot;e&quot; 22 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10e] &quot;f&quot; 22 &quot;&quot;
+
+
+
+.comment question 11
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question11] &quot;a&quot; 23 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11a] &quot;b&quot; 23 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11b] &quot;c&quot; 23 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11c] &quot;d&quot; 23 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11d] &quot;e&quot; 23 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11e] &quot;f&quot; 23 &quot;&quot;
+
+
+.comment question 12
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question12] &quot;a&quot; 24 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12a] &quot;b&quot; 24 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12b] &quot;c&quot; 24 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12c] &quot;d&quot; 24 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12d] &quot;e&quot; 24 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12e] &quot;f&quot; 24 &quot;&quot;
+
+
+SetItem &quot;question1&quot; &quot;[question1]&quot;
+SetItem &quot;option1a&quot; &quot;[option1a]&quot;
+SetItem &quot;option1b&quot; &quot;[option1b]&quot;
+SetItem &quot;option1c&quot; &quot;[option1c]&quot;
+SetItem &quot;option1d&quot; &quot;[option1d]&quot;
+SetItem &quot;option1e&quot; &quot;[option1e]&quot;
+
+
+SetItem &quot;question2&quot; &quot;[question2]&quot;
+SetItem &quot;option2a&quot; &quot;[option2a]&quot;
+SetItem &quot;option2b&quot; &quot;[option2b]&quot;
+SetItem &quot;option2c&quot; &quot;[option2c]&quot;
+SetItem &quot;option2d&quot; &quot;[option2d]&quot;
+SetItem &quot;option2e&quot; &quot;[option2e]&quot;
+
+
+SetItem &quot;question3&quot; &quot;[question3]&quot;
+SetItem &quot;option3a&quot; &quot;[option3a]&quot;
+SetItem &quot;option3b&quot; &quot;[option3b]&quot;
+SetItem &quot;option3c&quot; &quot;[option3c]&quot;
+SetItem &quot;option3d&quot; &quot;[option3d]&quot;
+SetItem &quot;option3e&quot; &quot;[option3e]&quot;
+
+
+SetItem &quot;question4&quot; &quot;[question4]&quot;
+SetItem &quot;option4a&quot; &quot;[option4a]&quot;
+SetItem &quot;option4b&quot; &quot;[option4b]&quot;
+SetItem &quot;option4c&quot; &quot;[option4c]&quot;
+SetItem &quot;option4d&quot; &quot;[option4d]&quot;
+SetItem &quot;option4e&quot; &quot;[option4e]&quot;
+
+
+SetItem &quot;question5&quot; &quot;[question5]&quot;
+SetItem &quot;option5a&quot; &quot;[option5a]&quot;
+SetItem &quot;option5b&quot; &quot;[option5b]&quot;
+SetItem &quot;option5c&quot; &quot;[option5c]&quot;
+SetItem &quot;option5d&quot; &quot;[option5d]&quot;
+SetItem &quot;option5e&quot; &quot;[option5e]&quot;
+
+
+SetItem &quot;question6&quot; &quot;[question6]&quot;
+SetItem &quot;option6a&quot; &quot;[option6a]&quot;
+SetItem &quot;option6b&quot; &quot;[option6b]&quot;
+SetItem &quot;option6c&quot; &quot;[option6c]&quot;
+SetItem &quot;option6d&quot; &quot;[option6d]&quot;
+SetItem &quot;option6e&quot; &quot;[option6e]&quot;
+
+
+SetItem &quot;question7&quot; &quot;[question7]&quot;
+SetItem &quot;option7b&quot; &quot;[option7a]&quot;
+SetItem &quot;option7b&quot; &quot;[option7b]&quot;
+SetItem &quot;option7c&quot; &quot;[option7c]&quot;
+SetItem &quot;option7d&quot; &quot;[option7d]&quot;
+SetItem &quot;option7e&quot; &quot;[option7e]&quot;
+
+
+SetItem &quot;question8&quot; &quot;[question8]&quot;
+SetItem &quot;option8b&quot; &quot;[option8a]&quot;
+SetItem &quot;option8b&quot; &quot;[option8b]&quot;
+SetItem &quot;option8c&quot; &quot;[option8c]&quot;
+SetItem &quot;option8d&quot; &quot;[option8d]&quot;
+SetItem &quot;option8e&quot; &quot;[option8e]&quot;
+
+
+SetItem &quot;question9&quot; &quot;[question9]&quot;
+SetItem &quot;option9b&quot; &quot;[option9a]&quot;
+SetItem &quot;option9b&quot; &quot;[option9b]&quot;
+SetItem &quot;option9c&quot; &quot;[option9c]&quot;
+SetItem &quot;option9d&quot; &quot;[option9d]&quot;
+SetItem &quot;option9e&quot; &quot;[option9e]&quot;
+
+
+SetItem &quot;question10&quot; &quot;[question10]&quot;
+SetItem &quot;option10b&quot; &quot;[option10a]&quot;
+SetItem &quot;option10b&quot; &quot;[option10b]&quot;
+SetItem &quot;option10c&quot; &quot;[option10c]&quot;
+SetItem &quot;option10d&quot; &quot;[option10d]&quot;
+SetItem &quot;option10e&quot; &quot;[option10e]&quot;
+
+
+SetItem &quot;question11&quot; &quot;[question11]&quot;
+SetItem &quot;option11b&quot; &quot;[option11a]&quot;
+SetItem &quot;option11b&quot; &quot;[option11b]&quot;
+SetItem &quot;option11c&quot; &quot;[option11c]&quot;
+SetItem &quot;option11d&quot; &quot;[option11d]&quot;
+SetItem &quot;option11e&quot; &quot;[option11e]&quot;
+
+
+SetItem &quot;question12&quot; &quot;[question12]&quot;
+SetItem &quot;option12b&quot; &quot;[option12a]&quot;
+SetItem &quot;option12b&quot; &quot;[option12b]&quot;
+SetItem &quot;option12c&quot; &quot;[option12c]&quot;
+SetItem &quot;option12d&quot; &quot;[option12d]&quot;
+SetItem &quot;option12e&quot; &quot;[option12e]&quot;
+
+
+GetItem &quot;question1&quot; [question1]
+GetItem &quot;option1a&quot; [option1a]
+GetItem &quot;option1b&quot; [option1b]
+GetItem &quot;option1c&quot; [option1c]
+GetItem &quot;option1d&quot; [option1d]
+GetItem &quot;option1e&quot; [option1e]
+
+
+
+GetItem &quot;question2&quot; [question2]
+GetItem &quot;option2a&quot; [option2a]
+GetItem &quot;option2b&quot; [option2b]
+GetItem &quot;option2c&quot; [option2c]
+GetItem &quot;option2d&quot; [option2d]
+GetItem &quot;option2e&quot; [option2e]
+
+
+GetItem &quot;question3&quot; [question3]
+GetItem &quot;option3a&quot; [option3a]
+GetItem &quot;option3b&quot; [option3b]
+GetItem &quot;option3c&quot; [option3c]
+GetItem &quot;option3d&quot; [option3d]
+GetItem &quot;option3e&quot; [option3e]
+GetItem &quot;option3f&quot; [option3f]
+GetItem &quot;option3g&quot; [option3g]
+
+GetItem &quot;question4&quot; [question4]
+GetItem &quot;option4a&quot; [option4a]
+GetItem &quot;option4b&quot; [option4b]
+GetItem &quot;option4c&quot; [option4c]
+GetItem &quot;option4d&quot; [option4d]
+GetItem &quot;option4e&quot; [option4e]
+GetItem &quot;option4f&quot; [option4f]
+GetItem &quot;option4g&quot; [option4g]
+
+GetItem &quot;question5&quot; [question5]
+GetItem &quot;option5a&quot; [option5a]
+GetItem &quot;option5b&quot; [option5b]
+GetItem &quot;option5c&quot; [option5c]
+GetItem &quot;option5d&quot; [option5d]
+GetItem &quot;option5e&quot; [option5e]
+
+
+GetItem &quot;question6&quot; [question6]
+GetItem &quot;option6a&quot; [option6a]
+GetItem &quot;option6b&quot; [option6b]
+GetItem &quot;option6c&quot; [option6c]
+GetItem &quot;option6d&quot; [option6d]
+GetItem &quot;option6e&quot; [option6e]
+
+
+GetItem &quot;question7&quot; [question7]
+GetItem &quot;option7a&quot; [option7a]
+GetItem &quot;option7b&quot; [option7b]
+GetItem &quot;option7c&quot; [option7c]
+GetItem &quot;option7d&quot; [option7d]
+GetItem &quot;option7e&quot; [option7e]
+
+
+GetItem &quot;question8&quot; [question8]
+GetItem &quot;option8a&quot; [option8a]
+GetItem &quot;option8b&quot; [option8b]
+GetItem &quot;option8c&quot; [option8c]
+GetItem &quot;option8d&quot; [option8d]
+GetItem &quot;option8e&quot; [option8e]
+
+
+
+GetItem &quot;question9&quot; [question9]
+GetItem &quot;option9a&quot; [option9a]
+GetItem &quot;option9b&quot; [option9b]
+GetItem &quot;option9c&quot; [option9c]
+GetItem &quot;option9d&quot; [option9d]
+GetItem &quot;option9e&quot; [option9e]
+
+
+
+GetItem &quot;question10&quot; [question10]
+GetItem &quot;option10a&quot; [option10a]
+GetItem &quot;option10b&quot; [option10b]
+GetItem &quot;option10c&quot; [option10c]
+GetItem &quot;option10d&quot; [option10d]
+GetItem &quot;option10e&quot; [option10e]
+
+
+
+GetItem &quot;question11&quot; [question11]
+GetItem &quot;option11a&quot; [option11a]
+GetItem &quot;option11b&quot; [option11b]
+GetItem &quot;option11c&quot; [option11c]
+GetItem &quot;option11d&quot; [option11d]
+GetItem &quot;option11e&quot; [option11e]
+
+
+GetItem &quot;question12&quot; [question12]
+GetItem &quot;option12a&quot; [option12a]
+GetItem &quot;option12b&quot; [option12b]
+GetItem &quot;option12c&quot; [option12c]
+GetItem &quot;option12d&quot; [option12d]
+GetItem &quot;option12e&quot; [option12e]
+
+
+
+SetVar [loaded] &quot;loaded&quot;
+
+
+GotoPage &quot;Page01&quot;
+GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="Headline49">
+							<left>20px</left>
+							<top>321px</top>
+							<width>36px</width>
+							<height>53px</height>
+							<style>color:#00FFFF;font-size:33pt</style>
+							<text>1</text>
+						</Headline>
+						<Headline id="Headline4">
+							<left>21px</left>
+							<top>251px</top>
+							<width>377px</width>
+							<height>55px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:12pt;font-style:italic;font-weight:600;text-align:center</style>
+							<text>Take the Quiz below, and&amp;nbsp;lets see what you know?&lt;br&gt;About these important regulations.</text>
+						</Headline>
+						<Headline id="Headline1">
+							<left>44px</left>
+							<top>176px</top>
+							<width>36px</width>
+							<height>53px</height>
+							<style>color:#00FFFF;font-size:33pt</style>
+							<text>G</text>
+						</Headline>
+						<Headline id="Headline2">
+							<left>175px</left>
+							<top>183px</top>
+							<width>209px</width>
+							<height>67px</height>
+							<style>color:#E0E0E0;font-size:13pt;font-weight:800</style>
+							<text>LABELING Regulations&lt;br&gt;13 December 2024</text>
+						</Headline>
+						<Headline id="Headline3">
+							<left>112px</left>
+							<top>66px</top>
+							<width>201px</width>
+							<height>44px</height>
+							<style>color:#E0E0E0;font-size:9pt;text-align:center</style>
+							<hover>color:yellow;font-weight:600</hover>
+							<text>Do they affect you?&lt;br&gt;How do they affect you?&lt;br&gt;What can you do to comply?</text>
+						</Headline>
+						<PushButton id="Startbutton">
+							<left>62px</left>
+							<top>399px</top>
+							<width>338px</width>
+							<height>40px</height>
+							<style>background-color:#F0FFFF</style>
+							<hover>color:Green;font-weight:800</hover>
+							<caption>Start 12 Question&amp;nbsp;Quiz</caption>
+							<click>HideObject &quot;sd1&quot; &quot;&quot; 0
+HideObject &quot;sd2&quot; &quot;&quot; 0
+HideObject &quot;sd3&quot; &quot;&quot; 0
+HideObject &quot;sd4&quot; &quot;&quot; 0
+HideObject &quot;sd5&quot; &quot;&quot; 0
+HideObject &quot;sd6&quot; &quot;&quot; 0
+HideObject &quot;sd7&quot; &quot;&quot; 0
+HideObject &quot;sd8&quot; &quot;&quot; 0
+HideObject &quot;sd9&quot; &quot;&quot; 0
+HideObject &quot;sd10&quot; &quot;&quot; 0
+HideObject &quot;sd11&quot; &quot;&quot; 0
+HideObject &quot;sd12&quot; &quot;&quot; 0
+
+
+ShowObject &quot;b1&quot; &quot;&quot; 0
+ShowObject &quot;b2&quot; &quot;&quot; 0
+ShowObject &quot;b3&quot; &quot;&quot; 0
+ShowObject &quot;b4&quot; &quot;&quot; 0
+ShowObject &quot;b5&quot; &quot;&quot; 0
+ShowObject &quot;b6&quot; &quot;&quot; 0
+ShowObject &quot;b7&quot; &quot;&quot; 0
+ShowObject &quot;b8&quot; &quot;&quot; 0
+ShowObject &quot;b9&quot; &quot;&quot; 0
+ShowObject &quot;b10&quot; &quot;&quot; 0
+ShowObject &quot;b11&quot; &quot;&quot; 0
+ShowObject &quot;b12&quot; &quot;&quot; 0
+ShowObject &quot;b13&quot; &quot;&quot; 0
+ShowObject &quot;b14&quot; &quot;&quot; 0
+ShowObject &quot;b15&quot; &quot;&quot; 0
+ShowObject &quot;b16&quot; &quot;&quot; 0
+ShowObject &quot;b17&quot; &quot;&quot; 0
+ShowObject &quot;b18&quot; &quot;&quot; 0
+ShowObject &quot;b19&quot; &quot;&quot; 0
+ShowObject &quot;b20&quot; &quot;&quot; 0
+ShowObject &quot;b21&quot; &quot;&quot; 0
+ShowObject &quot;b22&quot; &quot;&quot; 0
+ShowObject &quot;b23&quot; &quot;&quot; 0
+ShowObject &quot;b24&quot; &quot;&quot; 0
+ShowObject &quot;b25&quot; &quot;&quot; 0
+ShowObject &quot;b26&quot; &quot;&quot; 0
+
+ShowObject &quot;b27&quot; &quot;&quot; 0
+ShowObject &quot;b28&quot; &quot;&quot; 0
+ShowObject &quot;b29&quot; &quot;&quot; 0
+ShowObject &quot;b30&quot; &quot;&quot; 0
+ShowObject &quot;b31&quot; &quot;&quot; 0
+ShowObject &quot;b32&quot; &quot;&quot; 0
+ShowObject &quot;b33&quot; &quot;&quot; 0
+ShowObject &quot;b34&quot; &quot;&quot; 0
+ShowObject &quot;b35&quot; &quot;&quot; 0
+ShowObject &quot;b36&quot; &quot;&quot; 0
+ShowObject &quot;b37&quot; &quot;&quot; 0
+ShowObject &quot;b38&quot; &quot;&quot; 0
+ShowObject &quot;b39&quot; &quot;&quot; 0
+ShowObject &quot;b40&quot; &quot;&quot; 0
+ShowObject &quot;b41&quot; &quot;&quot; 0
+ShowObject &quot;b42&quot; &quot;&quot; 0
+ShowObject &quot;b43&quot; &quot;&quot; 0
+ShowObject &quot;b44&quot; &quot;&quot; 0
+ShowObject &quot;b45&quot; &quot;&quot; 0
+ShowObject &quot;b46&quot; &quot;&quot; 0
+ShowObject &quot;b47&quot; &quot;&quot; 0
+ShowObject &quot;b48&quot; &quot;&quot; 0
+ShowObject &quot;b49&quot; &quot;&quot; 0
+ShowObject &quot;b50&quot; &quot;&quot; 0
+ShowObject &quot;b51&quot; &quot;&quot; 0
+ShowObject &quot;b52&quot; &quot;&quot; 0
+
+
+SetVar [q1d] &quot;&quot;
+SetVar [q2d] &quot;&quot;
+SetVar [q3d] &quot;&quot;
+SetVar [q4d] &quot;&quot;
+SetVar [q5d] &quot;&quot;
+SetVar [q6d] &quot;&quot;
+SetVar [q7d] &quot;&quot;
+SetVar [q8d] &quot;&quot;
+SetVar [q9d] &quot;&quot;
+SetVar [q10d] &quot;&quot;
+SetVar [q11d] &quot;&quot;
+SetVar [q12d] &quot;&quot;
+
+HideObject &quot;next1&quot; &quot;&quot; 0
+HideObject &quot;next2&quot; &quot;&quot; 0
+HideObject &quot;next3&quot; &quot;&quot; 0
+HideObject &quot;next4&quot; &quot;&quot; 0
+HideObject &quot;next5&quot; &quot;&quot; 0
+HideObject &quot;next6&quot; &quot;&quot; 0
+HideObject &quot;next7&quot; &quot;&quot; 0
+HideObject &quot;next8&quot; &quot;&quot; 0
+HideObject &quot;next9&quot; &quot;&quot; 0
+HideObject &quot;next10&quot; &quot;&quot; 0
+HideObject &quot;next11&quot; &quot;&quot; 0
+HideObject &quot;next12&quot; &quot;&quot; 0
+
+GotoPage &quot;Page01&quot;</click>
+						</PushButton>
+						<Headline id="Headline22">
+							<left>238px</left>
+							<top>709px</top>
+							<width>157px</width>
+							<height>17px</height>
+							<style>color:white;font-size:8pt;text-align:center</style>
+							<text>V1.26&amp;nbsp; 17-2-25&lt;br&gt;&lt;br&gt;</text>
+						</Headline>
+						<Image id="Image4">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline18">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline68">
+							<left>23px</left>
+							<top>124px</top>
+							<width>376px</width>
+							<height>56px</height>
+							<style>color:yellow;font-size:12pt;font-weight:800;text-align:center;vertical-align:middle</style>
+							<text>[Quiz]:&amp;nbsp; [SelectIndustry]</text>
+						</Headline>
+						<Headline id="Headline33">
+							<left>135px</left>
+							<top>496px</top>
+							<width>262px</width>
+							<height>27px</height>
+							<style>color:yellow;font-size:12pt;font-weight:600</style>
+							<text>Genaric Last Score [qt1] out of 12</text>
+						</Headline>
+						<Headline id="Headline35">
+							<left>134px</left>
+							<top>516px</top>
+							<width>276px</width>
+							<height>21px</height>
+							<style>color:yellow;font-size:12pt;font-weight:600</style>
+							<text>Textile Last Score [qt2] out of 12</text>
+						</Headline>
+						<Headline id="Headline38">
+							<left>78px</left>
+							<top>176px</top>
+							<width>36px</width>
+							<height>53px</height>
+							<style>color:yellow;font-size:33pt</style>
+							<text>P</text>
+						</Headline>
+						<Headline id="Headline40">
+							<left>108px</left>
+							<top>176px</top>
+							<width>36px</width>
+							<height>53px</height>
+							<style>color:#9EFF31;font-size:33pt</style>
+							<text>S</text>
+						</Headline>
+						<Headline id="Headline43">
+							<left>138px</left>
+							<top>176px</top>
+							<width>36px</width>
+							<height>53px</height>
+							<style>color:red;font-size:33pt</style>
+							<text>R</text>
+						</Headline>
+						<Headline id="Headline45">
+							<left>45px</left>
+							<top>342px</top>
+							<width>353px</width>
+							<height>28px</height>
+							<style>color:#00FFFF;font-size:10pt;font-weight:800;text-align:right</style>
+							<text>Select General Quiz or Industry Specific Quiz</text>
+						</Headline>
+						<Headline id="Headline52">
+							<left>21px</left>
+							<top>399px</top>
+							<width>36px</width>
+							<height>53px</height>
+							<style>color:#00FFFF;font-size:33pt</style>
+							<text>2</text>
+						</Headline>
+						<Container id="Container1">
+							<left>16px</left>
+							<top>581px</top>
+							<width>192px</width>
+							<height>139px</height>
+							<style>background-color:#fff;border-style:solid;border-width:1px;opacity:0.41</style>
+							<hover>opacity:0.72</hover>
+							<Components>
+								<PushButton id="PushButton30">
+									<left>34px</left>
+									<top>22px</top>
+									<width>73px</width>
+									<height>33px</height>
+									<style>opacity:1</style>
+									<caption>Show</caption>
+									<click>ShowObject &quot;show1&quot; &quot;&quot; 0
+ShowObject &quot;show2&quot; &quot;&quot; 0
+ShowObject &quot;show3&quot; &quot;&quot; 0
+ShowObject &quot;show4&quot; &quot;&quot; 0
+ShowObject &quot;show5&quot; &quot;&quot; 0
+ShowObject &quot;show6&quot; &quot;&quot; 0
+ShowObject &quot;show7&quot; &quot;&quot; 0
+ShowObject &quot;show8&quot; &quot;&quot; 0
+ShowObject &quot;show9&quot; &quot;&quot; 0
+ShowObject &quot;show10&quot; &quot;&quot; 0
+ShowObject &quot;show11&quot; &quot;&quot; 0
+ShowObject &quot;show12&quot; &quot;&quot; 0
+ShowObject &quot;show100&quot; &quot;&quot; 0</click>
+								</PushButton>
+								<PushButton id="PushButton31">
+									<left>34px</left>
+									<top>58px</top>
+									<width>73px</width>
+									<height>33px</height>
+									<style>opacity:1</style>
+									<caption>Hide</caption>
+									<click>HideObject &quot;show1&quot; &quot;&quot; 0
+HideObject &quot;show2&quot; &quot;&quot; 0
+HideObject &quot;show3&quot; &quot;&quot; 0
+HideObject &quot;show4&quot; &quot;&quot; 0
+HideObject &quot;show5&quot; &quot;&quot; 0
+HideObject &quot;show6&quot; &quot;&quot; 0
+HideObject &quot;show7&quot; &quot;&quot; 0
+HideObject &quot;show8&quot; &quot;&quot; 0
+HideObject &quot;show9&quot; &quot;&quot; 0
+HideObject &quot;show10&quot; &quot;&quot; 0
+HideObject &quot;show11&quot; &quot;&quot; 0
+HideObject &quot;show12&quot; &quot;&quot; 0
+HideObject &quot;show100&quot; &quot;&quot; 0</click>
+								</PushButton>
+								<Ellipse id="show100">
+									<left>119px</left>
+									<top>30px</top>
+									<width>16px</width>
+									<height>16px</height>
+									<style>fill:red;stroke:red;stroke-width:1px</style>
+								</Ellipse>
+								<PushButton id="PushButton32">
+									<left>31px</left>
+									<top>101px</top>
+									<width>121px</width>
+									<height>23px</height>
+									<style>font-size:7pt;opacity:1</style>
+									<caption>reload</caption>
+									<click>ReloadApp
+GotoPage &quot;Home&quot;</click>
+								</PushButton>
+								<Headline id="Headline54">
+									<left>14px</left>
+									<top>5px</top>
+									<width>167px</width>
+									<height>16px</height>
+									<style>color:red;font-size:8pt</style>
+									<text>Guide-Rails Beta Verson only</text>
+								</Headline>
+							</Components>
+						</Container>
+						<Headline id="Headline59">
+							<left>114px</left>
+							<top>467px</top>
+							<width>247px</width>
+							<height>25px</height>
+							<style>color:yellow;font-size:16pt;font-weight:600</style>
+							<text>Previous scores below</text>
+						</Headline>
+						<Dropdown id="Dropdown1">
+							<left>44px</left>
+							<top>361px</top>
+							<width>357px</width>
+							<height>28px</height>
+							<items>GPSR- 12 Question Genaric Quiz?,GPSR- 12 Question Textile Industry Quiz?</items>
+							<variable>SelectIndustry</variable>
+							<change>If [SelectIndustry] == &quot;GPSR- 12 Question Genaric Quiz?&quot;
+
+ClickObject &quot;Quiz01&quot;
+Else
+EndIf
+
+If [SelectIndustry] == &quot;GPSR- 12 Question Textile Industry Quiz?&quot;
+ClickObject &quot;Quiz02&quot;
+Else
+EndIf
+
+If [SelectIndustry] == &quot;GPSR- 12 Question Genaric Quiz?&quot;
+
+ClickObject &quot;Quiz01&quot;
+Else
+EndIf
+
+If [SelectIndustry] == &quot;GPSR- 12 Question Textile Industry Quiz?&quot;
+ClickObject &quot;Quiz02&quot;
+Else
+EndIf</change>
+						</Dropdown>
+						<PushButton id="PushButton3">
+							<left>11px</left>
+							<top>74px</top>
+							<width>43px</width>
+							<height>41px</height>
+							<style>color:white;background-color:#383838;border-color:black</style>
+							<caption>S</caption>
+							<click>ShowObject &quot;Container1&quot; &quot;&quot; 0</click>
+						</PushButton>
+						<PushButton id="PushButton5">
+							<left>18px</left>
+							<top>452px</top>
+							<width>74px</width>
+							<height>36px</height>
+							<style>color:white;background-color:#383838;border-color:black</style>
+							<caption>Reload</caption>
+							<click>ReloadApp</click>
+						</PushButton>
+						<PushButton id="Quiz01">
+							<left>370px</left>
+							<top>75px</top>
+							<width>21px</width>
+							<height>36px</height>
+							<style>font-size:9pt;opacity:0.55</style>
+							<hover>opacity:0.72</hover>
+							<caption>g</caption>
+							<click>SetVar [googleSheet] &quot;https://docs.google.com/spreadsheets/d/1SUx689mPCnpOshbKechRq312Ce80i0vB2sr_2j3QS_0/edit?usp=sharingadd #gid=X&quot;
+
+SetVar [Quiz] &quot;This is Quiz one&quot;
+
+SetObjectStyle &quot;Quiz01&quot; &quot;background-color&quot; &quot;#ADFF2F&quot;
+SetObjectStyle &quot;Quiz02&quot; &quot;background-color&quot; &quot;#DCDCDC&quot;
+SetObjectStyle &quot;Quiz03&quot; &quot;background-color&quot; &quot;#DCDCDC&quot;
+
+.comment question 1
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question1] &quot;a&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1a] &quot;b&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1b] &quot;c&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1c] &quot;d&quot; 1 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option1d] &quot;e&quot; 1 &quot;&quot;
+
+
+.comment question 2
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question2] &quot;a&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2a] &quot;b&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2b] &quot;c&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2c] &quot;d&quot; 2 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option2d] &quot;e&quot; 2 &quot;&quot;
+
+
+.comment question 3
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question3] &quot;a&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3a] &quot;b&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3b] &quot;c&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3c] &quot;d&quot; 3 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option3d] &quot;e&quot; 3 &quot;&quot;
+
+
+.comment question 4
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question4] &quot;a&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4a] &quot;b&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4b] &quot;c&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4c] &quot;d&quot; 4 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option4d] &quot;e&quot; 4 &quot;&quot;
+
+
+.comment question 5
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question5] &quot;a&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5a] &quot;b&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5b] &quot;c&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5c] &quot;d&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5d] &quot;e&quot; 5 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option5e] &quot;f&quot; 5 &quot;&quot;
+
+
+.comment question 6
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question6] &quot;a&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6a] &quot;b&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6b] &quot;c&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6c] &quot;d&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6d] &quot;e&quot; 6 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option6e] &quot;f&quot; 6 &quot;&quot;
+
+
+.comment question 7
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question7] &quot;a&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7a] &quot;b&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7b] &quot;c&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7c] &quot;d&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7d] &quot;e&quot; 7 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option7e] &quot;f&quot; 7 &quot;&quot;
+
+
+.comment question 8
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question8] &quot;a&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8a] &quot;b&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8b] &quot;c&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8c] &quot;d&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8d] &quot;e&quot; 8 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option8e] &quot;f&quot; 8 &quot;&quot;
+
+
+
+.comment question 9
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question9] &quot;a&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9a] &quot;b&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9b] &quot;c&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9c] &quot;d&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9d] &quot;e&quot; 9 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option9e] &quot;f&quot; 9 &quot;&quot;
+
+
+.comment question 10
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question10] &quot;a&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10a] &quot;b&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10b] &quot;c&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10c] &quot;d&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10d] &quot;e&quot; 10 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option10e] &quot;f&quot; 10 &quot;&quot;
+
+
+
+.comment question 11
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question11] &quot;a&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11a] &quot;b&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11b] &quot;c&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11c] &quot;d&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11d] &quot;e&quot; 11 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option11e] &quot;f&quot; 11 &quot;&quot;
+
+
+.comment question 12
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [question12] &quot;a&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12a] &quot;b&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12b] &quot;c&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12c] &quot;d&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12d] &quot;e&quot; 12 &quot;&quot;
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [option12e] &quot;f&quot; 12 &quot;&quot;
+
+
+SetItem &quot;question1&quot; &quot;[question1]&quot;
+SetItem &quot;option1a&quot; &quot;[option1a]&quot;
+SetItem &quot;option1b&quot; &quot;[option1b]&quot;
+SetItem &quot;option1c&quot; &quot;[option1c]&quot;
+SetItem &quot;option1d&quot; &quot;[option1d]&quot;
+SetItem &quot;option1e&quot; &quot;[option1e]&quot;
+
+
+SetItem &quot;question2&quot; &quot;[question2]&quot;
+SetItem &quot;option2a&quot; &quot;[option2a]&quot;
+SetItem &quot;option2b&quot; &quot;[option2b]&quot;
+SetItem &quot;option2c&quot; &quot;[option2c]&quot;
+SetItem &quot;option2d&quot; &quot;[option2d]&quot;
+SetItem &quot;option2e&quot; &quot;[option2e]&quot;
+
+
+SetItem &quot;question3&quot; &quot;[question3]&quot;
+SetItem &quot;option3a&quot; &quot;[option3a]&quot;
+SetItem &quot;option3b&quot; &quot;[option3b]&quot;
+SetItem &quot;option3c&quot; &quot;[option3c]&quot;
+SetItem &quot;option3d&quot; &quot;[option3d]&quot;
+SetItem &quot;option3e&quot; &quot;[option3e]&quot;
+
+
+SetItem &quot;question4&quot; &quot;[question4]&quot;
+SetItem &quot;option4a&quot; &quot;[option4a]&quot;
+SetItem &quot;option4b&quot; &quot;[option4b]&quot;
+SetItem &quot;option4c&quot; &quot;[option4c]&quot;
+SetItem &quot;option4d&quot; &quot;[option4d]&quot;
+SetItem &quot;option4e&quot; &quot;[option4e]&quot;
+
+
+SetItem &quot;question5&quot; &quot;[question5]&quot;
+SetItem &quot;option5a&quot; &quot;[option5a]&quot;
+SetItem &quot;option5b&quot; &quot;[option5b]&quot;
+SetItem &quot;option5c&quot; &quot;[option5c]&quot;
+SetItem &quot;option5d&quot; &quot;[option5d]&quot;
+SetItem &quot;option5e&quot; &quot;[option5e]&quot;
+
+
+SetItem &quot;question6&quot; &quot;[question6]&quot;
+SetItem &quot;option6a&quot; &quot;[option6a]&quot;
+SetItem &quot;option6b&quot; &quot;[option6b]&quot;
+SetItem &quot;option6c&quot; &quot;[option6c]&quot;
+SetItem &quot;option6d&quot; &quot;[option6d]&quot;
+SetItem &quot;option6e&quot; &quot;[option6e]&quot;
+
+
+SetItem &quot;question7&quot; &quot;[question7]&quot;
+SetItem &quot;option7b&quot; &quot;[option7a]&quot;
+SetItem &quot;option7b&quot; &quot;[option7b]&quot;
+SetItem &quot;option7c&quot; &quot;[option7c]&quot;
+SetItem &quot;option7d&quot; &quot;[option7d]&quot;
+SetItem &quot;option7e&quot; &quot;[option7e]&quot;
+
+
+SetItem &quot;question8&quot; &quot;[question8]&quot;
+SetItem &quot;option8b&quot; &quot;[option8a]&quot;
+SetItem &quot;option8b&quot; &quot;[option8b]&quot;
+SetItem &quot;option8c&quot; &quot;[option8c]&quot;
+SetItem &quot;option8d&quot; &quot;[option8d]&quot;
+SetItem &quot;option8e&quot; &quot;[option8e]&quot;
+
+
+SetItem &quot;question9&quot; &quot;[question9]&quot;
+SetItem &quot;option9b&quot; &quot;[option9a]&quot;
+SetItem &quot;option9b&quot; &quot;[option9b]&quot;
+SetItem &quot;option9c&quot; &quot;[option9c]&quot;
+SetItem &quot;option9d&quot; &quot;[option9d]&quot;
+SetItem &quot;option9e&quot; &quot;[option9e]&quot;
+
+
+SetItem &quot;question10&quot; &quot;[question10]&quot;
+SetItem &quot;option10b&quot; &quot;[option10a]&quot;
+SetItem &quot;option10b&quot; &quot;[option10b]&quot;
+SetItem &quot;option10c&quot; &quot;[option10c]&quot;
+SetItem &quot;option10d&quot; &quot;[option10d]&quot;
+SetItem &quot;option10e&quot; &quot;[option10e]&quot;
+
+
+SetItem &quot;question11&quot; &quot;[question11]&quot;
+SetItem &quot;option11b&quot; &quot;[option11a]&quot;
+SetItem &quot;option11b&quot; &quot;[option11b]&quot;
+SetItem &quot;option11c&quot; &quot;[option11c]&quot;
+SetItem &quot;option11d&quot; &quot;[option11d]&quot;
+SetItem &quot;option11e&quot; &quot;[option11e]&quot;
+
+
+SetItem &quot;question12&quot; &quot;[question12]&quot;
+SetItem &quot;option12b&quot; &quot;[option12a]&quot;
+SetItem &quot;option12b&quot; &quot;[option12b]&quot;
+SetItem &quot;option12c&quot; &quot;[option12c]&quot;
+SetItem &quot;option12d&quot; &quot;[option12d]&quot;
+SetItem &quot;option12e&quot; &quot;[option12e]&quot;
+
+
+GetItem &quot;question1&quot; [question1]
+GetItem &quot;option1a&quot; [option1a]
+GetItem &quot;option1b&quot; [option1b]
+GetItem &quot;option1c&quot; [option1c]
+GetItem &quot;option1d&quot; [option1d]
+GetItem &quot;option1e&quot; [option1e]
+
+
+
+GetItem &quot;question2&quot; [question2]
+GetItem &quot;option2a&quot; [option2a]
+GetItem &quot;option2b&quot; [option2b]
+GetItem &quot;option2c&quot; [option2c]
+GetItem &quot;option2d&quot; [option2d]
+GetItem &quot;option2e&quot; [option2e]
+
+
+GetItem &quot;question3&quot; [question3]
+GetItem &quot;option3a&quot; [option3a]
+GetItem &quot;option3b&quot; [option3b]
+GetItem &quot;option3c&quot; [option3c]
+GetItem &quot;option3d&quot; [option3d]
+GetItem &quot;option3e&quot; [option3e]
+GetItem &quot;option3f&quot; [option3f]
+GetItem &quot;option3g&quot; [option3g]
+
+GetItem &quot;question4&quot; [question4]
+GetItem &quot;option4a&quot; [option4a]
+GetItem &quot;option4b&quot; [option4b]
+GetItem &quot;option4c&quot; [option4c]
+GetItem &quot;option4d&quot; [option4d]
+GetItem &quot;option4e&quot; [option4e]
+GetItem &quot;option4f&quot; [option4f]
+GetItem &quot;option4g&quot; [option4g]
+
+GetItem &quot;question5&quot; [question5]
+GetItem &quot;option5a&quot; [option5a]
+GetItem &quot;option5b&quot; [option5b]
+GetItem &quot;option5c&quot; [option5c]
+GetItem &quot;option5d&quot; [option5d]
+GetItem &quot;option5e&quot; [option5e]
+
+
+GetItem &quot;question6&quot; [question6]
+GetItem &quot;option6a&quot; [option6a]
+GetItem &quot;option6b&quot; [option6b]
+GetItem &quot;option6c&quot; [option6c]
+GetItem &quot;option6d&quot; [option6d]
+GetItem &quot;option6e&quot; [option6e]
+
+
+GetItem &quot;question7&quot; [question7]
+GetItem &quot;option7a&quot; [option7a]
+GetItem &quot;option7b&quot; [option7b]
+GetItem &quot;option7c&quot; [option7c]
+GetItem &quot;option7d&quot; [option7d]
+GetItem &quot;option7e&quot; [option7e]
+
+
+GetItem &quot;question8&quot; [question8]
+GetItem &quot;option8a&quot; [option8a]
+GetItem &quot;option8b&quot; [option8b]
+GetItem &quot;option8c&quot; [option8c]
+GetItem &quot;option8d&quot; [option8d]
+GetItem &quot;option8e&quot; [option8e]
+
+
+
+GetItem &quot;question9&quot; [question9]
+GetItem &quot;option9a&quot; [option9a]
+GetItem &quot;option9b&quot; [option9b]
+GetItem &quot;option9c&quot; [option9c]
+GetItem &quot;option9d&quot; [option9d]
+GetItem &quot;option9e&quot; [option9e]
+
+
+
+GetItem &quot;question10&quot; [question10]
+GetItem &quot;option10a&quot; [option10a]
+GetItem &quot;option10b&quot; [option10b]
+GetItem &quot;option10c&quot; [option10c]
+GetItem &quot;option10d&quot; [option10d]
+GetItem &quot;option10e&quot; [option10e]
+
+
+
+GetItem &quot;question11&quot; [question11]
+GetItem &quot;option11a&quot; [option11a]
+GetItem &quot;option11b&quot; [option11b]
+GetItem &quot;option11c&quot; [option11c]
+GetItem &quot;option11d&quot; [option11d]
+GetItem &quot;option11e&quot; [option11e]
+
+
+GetItem &quot;question12&quot; [question12]
+GetItem &quot;option12a&quot; [option12a]
+GetItem &quot;option12b&quot; [option12b]
+GetItem &quot;option12c&quot; [option12c]
+GetItem &quot;option12d&quot; [option12d]
+GetItem &quot;option12e&quot; [option12e]
+
+
+
+SetVar [loaded] &quot;loaded&quot;
+
+
+GotoPage &quot;Page01&quot;
+GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton1">
+							<left>361px</left>
+							<top>75px</top>
+							<width>43px</width>
+							<height>41px</height>
+							<style>color:white;background-color:#383838;border-color:black</style>
+							<caption>L</caption>
+							<click>GotoPage &quot;LandingPage&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton6">
+							<left>19px</left>
+							<top>702px</top>
+							<width>17px</width>
+							<height>14px</height>
+							<style>background-color:#383838;opacity:1</style>
+							<caption>&lt;br&gt;</caption>
+							<click>ShowObject &quot;show1&quot; &quot;&quot; 0
+ShowObject &quot;show2&quot; &quot;&quot; 0
+ShowObject &quot;show3&quot; &quot;&quot; 0
+ShowObject &quot;show4&quot; &quot;&quot; 0
+ShowObject &quot;show5&quot; &quot;&quot; 0
+ShowObject &quot;show6&quot; &quot;&quot; 0
+ShowObject &quot;show7&quot; &quot;&quot; 0
+ShowObject &quot;show8&quot; &quot;&quot; 0
+ShowObject &quot;show9&quot; &quot;&quot; 0
+ShowObject &quot;show10&quot; &quot;&quot; 0
+ShowObject &quot;show11&quot; &quot;&quot; 0
+ShowObject &quot;show12&quot; &quot;&quot; 0
+ShowObject &quot;show100&quot; &quot;&quot; 0</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="LandingPage">
+					<Components>
+						<Image id="Image14">
+							<left>18px</left>
+							<top>12px</top>
+							<width>393px</width>
+							<height>62px</height>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Image id="Image15">
+							<left>18px</left>
+							<top>511px</top>
+							<width>382px</width>
+							<height>181px</height>
+							<source>Capture1.JPG</source>
+						</Image>
+						<Headline id="Headline69">
+							<left>55px</left>
+							<top>683px</top>
+							<width>319px</width>
+							<height>47px</height>
+							<style>color:green;font-family:Arial,Helvetica,sans-serif;font-style:normal;text-align:center</style>
+							<text>&lt;div class=&quot;b_factrow&quot; style=&quot;text-align: left; color: rgb(112, 112, 112); text-transform: none; line-height: 22px; text-indent: 0px; letter-spacing: normal; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span tabindex=&quot;0&quot; class=&quot;bm_details_overlay&quot; style=&quot;display: inline; cursor: pointer;&quot; data-mapsovlprocessed=&quot;1&quot; data-detailsoverlay=&apos;{&quot;centerLatitude&quot;:52.559444427490234,&quot;centerLongitude&quot;:-1.183980941772461,&quot;zoom&quot;:16,&quot;localDetailsState&quot;:{&quot;entityType&quot;:&quot;Business&quot;,&quot;launchOverflowTaskOnTaskActivate&quot;:false,&quot;query&quot;:&quot;Soabar Ltd&quot;,&quot;id&quot;:&quot;ypid:YN1029x17743047438404017643&quot;,&quot;disableComputingMapViewForLoadingOnly&quot;:true,&quot;formCode&quot;:&quot;MPSRPL&quot;,&quot;mapsEntryPointState&quot;:{&quot;answerService&quot;:&quot;TaskPanePromotionAnswer&quot;,&quot;answerScenario&quot;:&quot;Location&quot;,&quot;segment&quot;:&quot;&quot;,&quot;region&quot;:&quot;TopOfPage&quot;,&quot;entryPoint&quot;:&quot;Details_Link&quot;}}}&apos;&gt;&lt;a style=&quot;color: rgb(64, 7, 162); text-decoration: none; touch-action: manipulation;&quot; href=&quot;https://www.bing.com/maps?&amp;amp;mepi=109~~TopOfPage~Address_Link&amp;amp;ty=18&amp;amp;q=Soabar%20Ltd&amp;amp;ss=ypid.YN1029x17743047438404017643&amp;amp;ppois=52.559444427490234_-1.183980941772461_Soabar%20Ltd_YN1029x17743047438404017643~&amp;amp;cp=52.559444~-1.183981&amp;amp;v=2&amp;amp;sV=1&amp;amp;FORM=MPSRPL&quot; target=&quot;_blank&quot; data-h=&quot;ID=SERP,5480.1&quot;&gt;Unit 7 Ashville Way, Leicester LE8 6NU&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;b_factrow&quot; style=&quot;text-align: left; color: rgb(112, 112, 112); text-transform: none; line-height: 22px; text-indent: 0px; letter-spacing: normal; padding-bottom: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; word-spacing: 0px; white-space: normal; orphans: 2; widows: 2; background-color: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;a class=&quot;nowrap&quot; style=&quot;color: rgb(64, 7, 162); text-decoration: none; white-space: nowrap; touch-action: manipulation;&quot; aria-label=&quot;Phone 0116 284 7000&quot; href=&quot;tel:01162847000&quot; h=&quot;ID=SERP,5481.1&quot;&gt;0116 284 7000&lt;/a&gt;&lt;br&gt;&lt;/div&gt;</text>
+						</Headline>
+						<Headline id="Headline70">
+							<left>37px</left>
+							<top>96px</top>
+							<width>349px</width>
+							<height>170px</height>
+							<style>text-align:center</style>
+							<text>New European GPSR Label Reglations 13 December 2024</text>
+						</Headline>
+						<PushButton id="PushButton2">
+							<left>50px</left>
+							<top>370px</top>
+							<width>323px</width>
+							<height>78px</height>
+							<caption>Take our quick quiz to test if you&lt;br&gt;understand if they may affect you?</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page01">
+					<style>background-color:#383838;animation-delay:2s</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline10">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>173px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>Quiz Question 1:&lt;br&gt;&lt;sub&gt;[Question1]&lt;/sub&gt;</text>
+						</Headline>
+						<Headline id="Headline6">
+							<left>17px</left>
+							<top>266px</top>
+							<width>346px</width>
+							<height>273px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [option1a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [option1b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [option1c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [option1d]</text>
+						</Headline>
+						<Headline id="r1">
+							<left>37px</left>
+							<top>544px</top>
+							<width>339px</width>
+							<height>92px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q1d]</text>
+						</Headline>
+						<PushButton id="b1">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk1] &quot;1&quot;
+SetVar [qt] &quot;0&quot;
+
+HideObject &quot;b1&quot; &quot;&quot; 0
+HideObject &quot;b2&quot; &quot;&quot; 0
+HideObject &quot;b3&quot; &quot;&quot; 0
+HideObject &quot;b4&quot; &quot;&quot; 0
+
+
+Math &quot;[qt]+[sk1]&quot; -1 [qt]
+
+
+SetVar [q1d] &quot;Well done correct&quot;
+
+
+
+ShowObject &quot;sd1&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next1&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b2">
+							<left>362px</left>
+							<top>328px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk1] &quot;0&quot;
+SetVar [qt] &quot;0&quot;
+
+HideObject &quot;b1&quot; &quot;&quot; 0
+HideObject &quot;b2&quot; &quot;&quot; 0
+HideObject &quot;b3&quot; &quot;&quot; 0
+HideObject &quot;b4&quot; &quot;&quot; 0
+
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [q1e] &quot;g&quot; 1 &quot;&quot;
+
+Math &quot;[qt]+[sk1]&quot; -1 [qt]
+
+SetVar [q1d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd1&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next1&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b3">
+							<left>362px</left>
+							<top>391px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk1] &quot;0&quot;
+SetVar [qt] &quot;0&quot;
+
+HideObject &quot;b1&quot; &quot;&quot; 0
+HideObject &quot;b2&quot; &quot;&quot; 0
+HideObject &quot;b3&quot; &quot;&quot; 0
+HideObject &quot;b4&quot; &quot;&quot; 0
+
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [q1e] &quot;g&quot; 1 &quot;&quot;
+
+Math &quot;[qt]+[sk1]&quot; -1 [qt]
+
+SetVar [q1d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd1&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next1&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b4">
+							<left>360px</left>
+							<top>454px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk1] &quot;0&quot;
+SetVar [qt] &quot;0&quot;
+
+HideObject &quot;b1&quot; &quot;&quot; 0
+HideObject &quot;b2&quot; &quot;&quot; 0
+HideObject &quot;b3&quot; &quot;&quot; 0
+HideObject &quot;b4&quot; &quot;&quot; 0
+
+neoGSheetsLoadCell &quot;[googleSheet]&quot; [q1e] &quot;g&quot; 1 &quot;&quot;
+Math &quot;[qt]+[sk1]&quot; -1 [qt]
+
+SetVar [q1d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd1&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next1&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="next1">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page02&quot;</click>
+						</PushButton>
+						<Ellipse id="show1">
+							<left>392px</left>
+							<top>268px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd1">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 1</text>
+						</Headline>
+						<Image id="Image1">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline8">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline50">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<PushButton id="PushButton18">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="PushButton4">
+							<left>327px</left>
+							<top>65px</top>
+							<width>73px</width>
+							<height>29px</height>
+							<style>opacity:1</style>
+							<caption>Show</caption>
+							<click>ShowObject &quot;show1&quot; &quot;&quot; 0
+ShowObject &quot;show2&quot; &quot;&quot; 0
+ShowObject &quot;show3&quot; &quot;&quot; 0
+ShowObject &quot;show4&quot; &quot;&quot; 0
+ShowObject &quot;show5&quot; &quot;&quot; 0
+ShowObject &quot;show6&quot; &quot;&quot; 0
+ShowObject &quot;show7&quot; &quot;&quot; 0
+ShowObject &quot;show8&quot; &quot;&quot; 0
+ShowObject &quot;show9&quot; &quot;&quot; 0
+ShowObject &quot;show10&quot; &quot;&quot; 0
+ShowObject &quot;show11&quot; &quot;&quot; 0
+ShowObject &quot;show12&quot; &quot;&quot; 0
+ShowObject &quot;show100&quot; &quot;&quot; 0</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page02">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline12">
+							<left>11px</left>
+							<top>266px</top>
+							<width>349px</width>
+							<height>274px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option2a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option2b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option2c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option2d]</text>
+						</Headline>
+						<PushButton id="b5">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk2] &quot;0&quot;
+
+HideObject &quot;b5&quot; &quot;&quot; 0
+HideObject &quot;b6&quot; &quot;&quot; 0
+HideObject &quot;b7&quot; &quot;&quot; 0
+HideObject &quot;b8&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk2]&quot; -1 [qt]
+
+SetVar [q2d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd2&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next2&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b6">
+							<left>362px</left>
+							<top>326px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk2] &quot;1&quot;
+
+HideObject &quot;b5&quot; &quot;&quot; 0
+HideObject &quot;b6&quot; &quot;&quot; 0
+HideObject &quot;b7&quot; &quot;&quot; 0
+HideObject &quot;b8&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk2]&quot; -1 [qt]
+
+SetVar [q2d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd2&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next2&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b7">
+							<left>362px</left>
+							<top>385px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk2] &quot;0&quot;
+
+HideObject &quot;b5&quot; &quot;&quot; 0
+HideObject &quot;b6&quot; &quot;&quot; 0
+HideObject &quot;b7&quot; &quot;&quot; 0
+HideObject &quot;b8&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk2]&quot; -1 [qt]
+
+SetVar [q2d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd2&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next2&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b8">
+							<left>360px</left>
+							<top>442px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk2] &quot;0&quot;
+
+HideObject &quot;b5&quot; &quot;&quot; 0
+HideObject &quot;b6&quot; &quot;&quot; 0
+HideObject &quot;b7&quot; &quot;&quot; 0
+HideObject &quot;b8&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk2]&quot; -1 [qt]
+
+SetVar [q1d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd2&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next2&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show2">
+							<left>392px</left>
+							<top>329px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<PushButton id="next2">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page03&quot;</click>
+						</PushButton>
+						<Headline id="sd2">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 2</text>
+						</Headline>
+						<Headline id="r2">
+							<left>37px</left>
+							<top>542px</top>
+							<width>339px</width>
+							<height>94px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q2d]</text>
+						</Headline>
+						<Image id="Image2">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline20">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline51">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline7">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>173px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:2s</style>
+							<text>Quiz Question 2:&lt;br&gt;&lt;sub&gt;[Question2]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton19">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page03">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline15">
+							<left>13px</left>
+							<top>266px</top>
+							<width>347px</width>
+							<height>273px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option3a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option3b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option3c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option3d]</text>
+						</Headline>
+						<PushButton id="b9">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk3] &quot;0&quot;
+
+HideObject &quot;b9&quot; &quot;&quot; 0
+HideObject &quot;b10&quot; &quot;&quot; 0
+HideObject &quot;b11&quot; &quot;&quot; 0
+HideObject &quot;b12&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q3d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd3&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next3&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b10">
+							<left>362px</left>
+							<top>326px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk3] &quot;1&quot;
+
+HideObject &quot;b9&quot; &quot;&quot; 0
+HideObject &quot;b10&quot; &quot;&quot; 0
+HideObject &quot;b11&quot; &quot;&quot; 0
+HideObject &quot;b12&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q3d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd3&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next3&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b11">
+							<left>362px</left>
+							<top>385px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk3] &quot;0&quot;
+
+HideObject &quot;b9&quot; &quot;&quot; 0
+HideObject &quot;b10&quot; &quot;&quot; 0
+HideObject &quot;b11&quot; &quot;&quot; 0
+HideObject &quot;b12&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q3d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd3&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next3&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b12">
+							<left>360px</left>
+							<top>445px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk3] &quot;0&quot;
+
+HideObject &quot;b9&quot; &quot;&quot; 0
+HideObject &quot;b10&quot; &quot;&quot; 0
+HideObject &quot;b11&quot; &quot;&quot; 0
+HideObject &quot;b12&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q3d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd3&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next3&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show3">
+							<left>392px</left>
+							<top>330px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<PushButton id="next3">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page04&quot;</click>
+						</PushButton>
+						<Headline id="sd3">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 3</text>
+						</Headline>
+						<Headline id="r3">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q3d]</text>
+						</Headline>
+						<Image id="Image3">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline21">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline55">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline9">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>175px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 3:&lt;br&gt;&lt;sub&gt;[Question3]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton20">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page04">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline24">
+							<left>13px</left>
+							<top>269px</top>
+							<width>350px</width>
+							<height>258px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option4a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option4b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option4c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option4d]</text>
+						</Headline>
+						<PushButton id="b13">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk4] &quot;0&quot;
+
+HideObject &quot;b13&quot; &quot;&quot; 0
+HideObject &quot;b14&quot; &quot;&quot; 0
+HideObject &quot;b15&quot; &quot;&quot; 0
+HideObject &quot;b16&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk4]&quot; -1 [qt]
+
+SetVar [q4d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd4&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next4&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b14">
+							<left>362px</left>
+							<top>327px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk4] &quot;0&quot;
+
+HideObject &quot;b13&quot; &quot;&quot; 0
+HideObject &quot;b14&quot; &quot;&quot; 0
+HideObject &quot;b15&quot; &quot;&quot; 0
+HideObject &quot;b16&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk4]&quot; -1 [qt]
+
+SetVar [q4d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd4&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next4&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b15">
+							<left>362px</left>
+							<top>386px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk4] &quot;0&quot;
+
+HideObject &quot;b13&quot; &quot;&quot; 0
+HideObject &quot;b14&quot; &quot;&quot; 0
+HideObject &quot;b15&quot; &quot;&quot; 0
+HideObject &quot;b16&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q4d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd4&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next4&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b16">
+							<left>360px</left>
+							<top>445px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk4] &quot;1&quot;
+
+HideObject &quot;b13&quot; &quot;&quot; 0
+HideObject &quot;b14&quot; &quot;&quot; 0
+HideObject &quot;b15&quot; &quot;&quot; 0
+HideObject &quot;b16&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk4]&quot; -1 [qt]
+
+SetVar [q4d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd4&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next4&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Headline id="r4">
+							<left>41px</left>
+							<top>528px</top>
+							<width>339px</width>
+							<height>94px</height>
+							<style>color:yellow;font-size:15pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q4d]</text>
+						</Headline>
+						<Ellipse id="show4">
+							<left>392px</left>
+							<top>449px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<PushButton id="next4">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page05&quot;</click>
+						</PushButton>
+						<Headline id="sd4">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 4</text>
+						</Headline>
+						<Image id="Image5">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline26">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline56">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline11">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>173px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 4:&lt;br&gt;&lt;sub&gt;[Question4]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton21">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page05">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline29">
+							<left>13px</left>
+							<top>270px</top>
+							<width>352px</width>
+							<height>267px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option5a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option5b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option5c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option5d]</text>
+						</Headline>
+						<PushButton id="b22">
+							<left>362px</left>
+							<top>327px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk5] &quot;0&quot;
+
+HideObject &quot;b21&quot; &quot;&quot; 0
+HideObject &quot;b22&quot; &quot;&quot; 0
+HideObject &quot;b23&quot; &quot;&quot; 0
+HideObject &quot;b24&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk5]&quot; -1 [qt]
+
+SetVar [q5d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd5&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next5&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b23">
+							<left>362px</left>
+							<top>385px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk5] &quot;0&quot;
+
+HideObject &quot;b21&quot; &quot;&quot; 0
+HideObject &quot;b22&quot; &quot;&quot; 0
+HideObject &quot;b23&quot; &quot;&quot; 0
+HideObject &quot;b24&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk5]&quot; -1 [qt]
+
+SetVar [q5d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd5&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next5&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b24">
+							<left>360px</left>
+							<top>446px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk5] &quot;0&quot;
+
+HideObject &quot;b21&quot; &quot;&quot; 0
+HideObject &quot;b22&quot; &quot;&quot; 0
+HideObject &quot;b23&quot; &quot;&quot; 0
+HideObject &quot;b24&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk5]&quot; -1 [qt]
+
+SetVar [q5d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd5&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next5&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show5">
+							<left>394px</left>
+							<top>267px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<PushButton id="next5">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page06&quot;</click>
+						</PushButton>
+						<Headline id="sd5">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 5</text>
+						</Headline>
+						<Headline id="r5">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q5d]</text>
+						</Headline>
+						<Image id="Image6">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline27">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline60">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline14">
+							<left>30px</left>
+							<top>87px</top>
+							<width>355px</width>
+							<height>183px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 5:&lt;br&gt;&lt;sub&gt;[Question5]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton22">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<PushButton id="b21">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk5] &quot;1&quot;
+
+HideObject &quot;b21&quot; &quot;&quot; 0
+HideObject &quot;b22&quot; &quot;&quot; 0
+HideObject &quot;b23&quot; &quot;&quot; 0
+HideObject &quot;b24&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk5]&quot; -1 [qt]
+
+SetVar [q5d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd5&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next5&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page06">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline34">
+							<left>19px</left>
+							<top>271px</top>
+							<width>343px</width>
+							<height>267px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt</style>
+							<text>Ans&amp;nbsp;1: [Option6a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option6b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option6c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option6d]</text>
+						</Headline>
+						<PushButton id="b25">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk6] &quot;0&quot;
+
+HideObject &quot;b25&quot; &quot;&quot; 0
+HideObject &quot;b26&quot; &quot;&quot; 0
+HideObject &quot;b27&quot; &quot;&quot; 0
+HideObject &quot;b28&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk6]&quot; -1 [qt]
+
+SetVar [q6d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd6&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next6&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b26">
+							<left>362px</left>
+							<top>326px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk6] &quot;0&quot;
+
+HideObject &quot;b25&quot; &quot;&quot; 0
+HideObject &quot;b26&quot; &quot;&quot; 0
+HideObject &quot;b27&quot; &quot;&quot; 0
+HideObject &quot;b28&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk6]&quot; -1 [qt]
+
+SetVar [q6d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd6&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next6&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b27">
+							<left>362px</left>
+							<top>386px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk6] &quot;0&quot;
+
+HideObject &quot;b25&quot; &quot;&quot; 0
+HideObject &quot;b26&quot; &quot;&quot; 0
+HideObject &quot;b27&quot; &quot;&quot; 0
+HideObject &quot;b28&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk6]&quot; -1 [qt]
+
+SetVar [q6d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd6&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next6&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b28">
+							<left>360px</left>
+							<top>445px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk6] &quot;1&quot;
+
+HideObject &quot;b25&quot; &quot;&quot; 0
+HideObject &quot;b26&quot; &quot;&quot; 0
+HideObject &quot;b27&quot; &quot;&quot; 0
+HideObject &quot;b28&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk6]&quot; -1 [qt]
+
+SetVar [q6d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd6&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next6&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show6">
+							<left>392px</left>
+							<top>449px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<PushButton id="next6">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page07&quot;</click>
+						</PushButton>
+						<Headline id="sd6">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 6</text>
+						</Headline>
+						<Headline id="r6">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q6d]</text>
+						</Headline>
+						<Image id="Image7">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline31">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline61">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline16">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>173px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 6:&lt;br&gt;&lt;sub&gt;[Question6]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton23">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page07">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline39">
+							<left>18px</left>
+							<top>270px</top>
+							<width>343px</width>
+							<height>269px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option7a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option7b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option7c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option7d]</text>
+						</Headline>
+						<PushButton id="b29">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk7] &quot;0&quot;
+
+HideObject &quot;b29&quot; &quot;&quot; 0
+HideObject &quot;b30&quot; &quot;&quot; 0
+HideObject &quot;b31&quot; &quot;&quot; 0
+HideObject &quot;b32&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk7]&quot; -1 [qt]
+
+SetVar [q7d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd7&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next7&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b30">
+							<left>362px</left>
+							<top>327px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk7] &quot;0&quot;
+
+HideObject &quot;b29&quot; &quot;&quot; 0
+HideObject &quot;b30&quot; &quot;&quot; 0
+HideObject &quot;b31&quot; &quot;&quot; 0
+HideObject &quot;b32&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk7]&quot; -1 [qt]
+
+SetVar [q7d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd7&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next7&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b31">
+							<left>362px</left>
+							<top>387px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk7] &quot;0&quot;
+
+HideObject &quot;b29&quot; &quot;&quot; 0
+HideObject &quot;b30&quot; &quot;&quot; 0
+HideObject &quot;b31&quot; &quot;&quot; 0
+HideObject &quot;b32&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk7]&quot; -1 [qt]
+
+SetVar [q7d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd7&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next7&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b32">
+							<left>360px</left>
+							<top>446px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk7] &quot;1&quot;
+
+HideObject &quot;b29&quot; &quot;&quot; 0
+HideObject &quot;b30&quot; &quot;&quot; 0
+HideObject &quot;b31&quot; &quot;&quot; 0
+HideObject &quot;b32&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk7]&quot; -1 [qt]
+
+SetVar [q7d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd7&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next7&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show7">
+							<left>392px</left>
+							<top>450px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd7">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 7</text>
+						</Headline>
+						<PushButton id="next7">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page08&quot;</click>
+						</PushButton>
+						<Headline id="r7">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q7d]</text>
+						</Headline>
+						<Image id="Image8">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline32">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline62">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline23">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>175px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 7:&lt;br&gt;&lt;sub&gt;[Question7]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton24">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page08">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline44">
+							<left>19px</left>
+							<top>270px</top>
+							<width>342px</width>
+							<height>270px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option8a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option8b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option8c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option8d]</text>
+						</Headline>
+						<PushButton id="b33">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk8] &quot;1&quot;
+
+HideObject &quot;b33&quot; &quot;&quot; 0
+HideObject &quot;b34&quot; &quot;&quot; 0
+HideObject &quot;b35&quot; &quot;&quot; 0
+HideObject &quot;b36&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk8]&quot; -1 [qt]
+
+SetVar [q8d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd8&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next8&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b34">
+							<left>362px</left>
+							<top>328px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk8] &quot;0&quot;
+
+HideObject &quot;b33&quot; &quot;&quot; 0
+HideObject &quot;b34&quot; &quot;&quot; 0
+HideObject &quot;b35&quot; &quot;&quot; 0
+HideObject &quot;b36&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk8]&quot; -1 [qt]
+
+SetVar [q8d] [option8f]
+
+SetVar [q8d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd8&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next8&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b35">
+							<left>362px</left>
+							<top>387px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk8] &quot;0&quot;
+
+HideObject &quot;b33&quot; &quot;&quot; 0
+HideObject &quot;b34&quot; &quot;&quot; 0
+HideObject &quot;b35&quot; &quot;&quot; 0
+HideObject &quot;b36&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk8]&quot; -1 [qt]
+
+SetVar [q8d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd8&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next8&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b36">
+							<left>360px</left>
+							<top>448px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk8] &quot;0&quot;
+
+HideObject &quot;b33&quot; &quot;&quot; 0
+HideObject &quot;b34&quot; &quot;&quot; 0
+HideObject &quot;b35&quot; &quot;&quot; 0
+HideObject &quot;b36&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk8]&quot; -1 [qt]
+
+SetVar [q8d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd8&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next8&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show8">
+							<left>392px</left>
+							<top>267px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd8">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 8</text>
+						</Headline>
+						<PushButton id="next8">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page09&quot;</click>
+						</PushButton>
+						<Headline id="r8">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q8d]</text>
+						</Headline>
+						<Image id="Image9">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline37">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline63">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline25">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>176px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 8:&lt;br&gt;&lt;sub&gt;[Question8]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton25">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page09">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline13">
+							<left>17px</left>
+							<top>272px</top>
+							<width>344px</width>
+							<height>265px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option9a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option9b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option9c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option9d]</text>
+						</Headline>
+						<PushButton id="b37">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk9] &quot;1&quot;
+
+HideObject &quot;b37&quot; &quot;&quot; 0
+HideObject &quot;b38&quot; &quot;&quot; 0
+HideObject &quot;b39&quot; &quot;&quot; 0
+HideObject &quot;b40&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk9]&quot; -1 [qt]
+
+SetVar [q9d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd9&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next9&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b38">
+							<left>362px</left>
+							<top>326px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk9] &quot;0&quot;
+
+HideObject &quot;b37&quot; &quot;&quot; 0
+HideObject &quot;b38&quot; &quot;&quot; 0
+HideObject &quot;b39&quot; &quot;&quot; 0
+HideObject &quot;b40&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk9]&quot; -1 [qt]
+
+SetVar [q9d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd9&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next9&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b39">
+							<left>362px</left>
+							<top>385px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk9] &quot;0&quot;
+
+HideObject &quot;b37&quot; &quot;&quot; 0
+HideObject &quot;b38&quot; &quot;&quot; 0
+HideObject &quot;b39&quot; &quot;&quot; 0
+HideObject &quot;b40&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q9d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd9&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next9&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b40">
+							<left>360px</left>
+							<top>449px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk9] &quot;0&quot;
+
+HideObject &quot;b37&quot; &quot;&quot; 0
+HideObject &quot;b38&quot; &quot;&quot; 0
+HideObject &quot;b39&quot; &quot;&quot; 0
+HideObject &quot;b40&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk3]&quot; -1 [qt]
+
+SetVar [q9d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd9&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next9&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show9">
+							<left>392px</left>
+							<top>268px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd9">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 9</text>
+						</Headline>
+						<PushButton id="next9">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page10&quot;</click>
+						</PushButton>
+						<Headline id="r9">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q9d]</text>
+						</Headline>
+						<Image id="Image10">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline41">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline64">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline5">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>175px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 9:&lt;br&gt;&lt;sub&gt;[Question9]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton26">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page10">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline48">
+							<left>21px</left>
+							<top>273px</top>
+							<width>339px</width>
+							<height>265px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option10a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option10b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option10c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option10d]</text>
+						</Headline>
+						<PushButton id="b41">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk10] &quot;0&quot;
+
+HideObject &quot;b41&quot; &quot;&quot; 0
+HideObject &quot;b42&quot; &quot;&quot; 0
+HideObject &quot;b43&quot; &quot;&quot; 0
+HideObject &quot;b44&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk10]&quot; -1 [qt]
+
+SetVar [q10d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd10&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next10&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b42">
+							<left>362px</left>
+							<top>330px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk10] &quot;1&quot;
+
+HideObject &quot;b41&quot; &quot;&quot; 0
+HideObject &quot;b42&quot; &quot;&quot; 0
+HideObject &quot;b43&quot; &quot;&quot; 0
+HideObject &quot;b44&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk10]&quot; -1 [qt]
+
+SetVar [q10d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd10&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next10&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b43">
+							<left>362px</left>
+							<top>389px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk10] &quot;0&quot;
+
+HideObject &quot;b41&quot; &quot;&quot; 0
+HideObject &quot;b42&quot; &quot;&quot; 0
+HideObject &quot;b43&quot; &quot;&quot; 0
+HideObject &quot;b44&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk10]&quot; -1 [qt]
+
+SetVar [q10d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd10&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next10&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b44">
+							<left>360px</left>
+							<top>448px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk10] &quot;0&quot;
+
+HideObject &quot;b41&quot; &quot;&quot; 0
+HideObject &quot;b42&quot; &quot;&quot; 0
+HideObject &quot;b43&quot; &quot;&quot; 0
+HideObject &quot;b44&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk10]&quot; -1 [qt]
+
+SetVar [q10d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd10&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next10&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show10">
+							<left>392px</left>
+							<top>334px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd10">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 10</text>
+						</Headline>
+						<PushButton id="next10">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page11&quot;</click>
+						</PushButton>
+						<Headline id="r10">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q10d]</text>
+						</Headline>
+						<Image id="Image11">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline42">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline65">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline17">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>175px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 10:&lt;br&gt;&lt;sub&gt;[Question10]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton27">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page11">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline53">
+							<left>18px</left>
+							<top>273px</top>
+							<width>344px</width>
+							<height>266px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option11a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option11b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option11c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option11d]</text>
+						</Headline>
+						<PushButton id="b45">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk11] &quot;0&quot;
+
+HideObject &quot;b45&quot; &quot;&quot; 0
+HideObject &quot;b46&quot; &quot;&quot; 0
+HideObject &quot;b47&quot; &quot;&quot; 0
+HideObject &quot;b48&quot; &quot;&quot; 0
+
+
+Math &quot;[qt]+[sk11]&quot; -1 [qt]
+
+SetVar [q11d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd11&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next11&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b46">
+							<left>362px</left>
+							<top>330px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk11] &quot;1&quot;
+
+HideObject &quot;b45&quot; &quot;&quot; 0
+HideObject &quot;b46&quot; &quot;&quot; 0
+HideObject &quot;b47&quot; &quot;&quot; 0
+HideObject &quot;b48&quot; &quot;&quot; 0
+
+
+Math &quot;[qt]+[sk11]&quot; -1 [qt]
+
+SetVar [q11d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd11&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next11&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b47">
+							<left>362px</left>
+							<top>386px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk11] &quot;0&quot;
+
+HideObject &quot;b45&quot; &quot;&quot; 0
+HideObject &quot;b46&quot; &quot;&quot; 0
+HideObject &quot;b47&quot; &quot;&quot; 0
+HideObject &quot;b48&quot; &quot;&quot; 0
+
+
+Math &quot;[qt]+[sk11]&quot; -1 [qt]
+
+SetVar [q11d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd11&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next11&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b48">
+							<left>360px</left>
+							<top>450px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk11] &quot;0&quot;
+
+HideObject &quot;b45&quot; &quot;&quot; 0
+HideObject &quot;b46&quot; &quot;&quot; 0
+HideObject &quot;b47&quot; &quot;&quot; 0
+HideObject &quot;b48&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk11]&quot; -1 [qt]
+
+SetVar [q11d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd11&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next11&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show11">
+							<left>392px</left>
+							<top>334px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd11">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 11</text>
+						</Headline>
+						<PushButton id="next11">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Next Question?</caption>
+							<click>GotoPage &quot;Page12&quot;</click>
+						</PushButton>
+						<Headline id="r11">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q11d]</text>
+						</Headline>
+						<Image id="Image12">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline46">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline66">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline28">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>175px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;font-size:28pt;font-style:italic;font-weight:600;text-align:left;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 11:&lt;br&gt;&lt;sub&gt;[Question11]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton28">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+				<Page id="Page12">
+					<style>background-color:#383838</style>
+					<enter_effect>fadeIn</enter_effect>
+					<Components>
+						<Headline id="Headline58">
+							<left>16px</left>
+							<top>275px</top>
+							<width>347px</width>
+							<height>265px</height>
+							<style>color:#00FFFF;font-family:Times New Roman,Times,serif;font-size:17pt;font-style:italic;text-align:left</style>
+							<text>Ans&amp;nbsp;1: [Option12a]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 2: [Option12b]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 3: [Option12c]&lt;br&gt;&lt;br&gt;Ans&amp;nbsp; 4: [Option12d]</text>
+						</Headline>
+						<PushButton id="b49">
+							<left>362px</left>
+							<top>264px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk12] &quot;0&quot;
+
+HideObject &quot;b49&quot; &quot;&quot; 0
+HideObject &quot;b50&quot; &quot;&quot; 0
+HideObject &quot;b51&quot; &quot;&quot; 0
+HideObject &quot;b52&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk12]&quot; -1 [qt]
+
+SetVar [q12d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd12&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next12&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b50">
+							<left>362px</left>
+							<top>333px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk12] &quot;0&quot;
+
+HideObject &quot;b49&quot; &quot;&quot; 0
+HideObject &quot;b50&quot; &quot;&quot; 0
+HideObject &quot;b51&quot; &quot;&quot; 0
+HideObject &quot;b52&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk12]&quot; -1 [qt]
+
+SetVar [q12d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd12&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next12&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b51">
+							<left>362px</left>
+							<top>390px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk12] &quot;0&quot;
+
+HideObject &quot;b49&quot; &quot;&quot; 0
+HideObject &quot;b50&quot; &quot;&quot; 0
+HideObject &quot;b51&quot; &quot;&quot; 0
+HideObject &quot;b52&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk12]&quot; -1 [qt]
+
+
+SetVar [q12d] &quot;Sorry incorrect&quot;
+
+ShowObject &quot;sd12&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next12&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<PushButton id="b52">
+							<left>360px</left>
+							<top>449px</top>
+							<width>26px</width>
+							<height>24px</height>
+							<style>background-color:#707070</style>
+							<click>SetVar [sk12] &quot;1&quot;
+
+HideObject &quot;b49&quot; &quot;&quot; 0
+HideObject &quot;b50&quot; &quot;&quot; 0
+HideObject &quot;b51&quot; &quot;&quot; 0
+HideObject &quot;b52&quot; &quot;&quot; 0
+
+Math &quot;[qt]+[sk12]&quot; -1 [qt]
+
+
+SetVar [q12d] &quot;Well done correct&quot;
+
+ShowObject &quot;sd12&quot; &quot;fadeIn&quot; 24
+
+ShowObject &quot;next12&quot; &quot;holeIn&quot; 80</click>
+						</PushButton>
+						<Ellipse id="show12">
+							<left>392px</left>
+							<top>453px</top>
+							<width>16px</width>
+							<height>16px</height>
+							<style>fill:red;stroke:red;stroke-width:1px</style>
+						</Ellipse>
+						<Headline id="sd12">
+							<left>21px</left>
+							<top>635px</top>
+							<width>374px</width>
+							<height>49px</height>
+							<style>color:#FABC02;text-align:center</style>
+							<text>Score [qt] out of 12</text>
+						</Headline>
+						<PushButton id="next12">
+							<left>138px</left>
+							<top>689px</top>
+							<width>128px</width>
+							<height>42px</height>
+							<style>background-color:#707070</style>
+							<caption>Home</caption>
+							<click>If [Quiz] == &quot;This is Quiz one&quot;
+SetVar [qt1] [qt]
+Else
+
+EndIf
+
+If [Quiz] == &quot;This is Quiz Two&quot;
+SetVar [qt2] [qt]
+Else
+
+EndIf
+
+If [Quiz] == &quot;This is Quiz Three&quot;
+SetVar [qt3] [qt]
+Else
+
+EndIf
+
+
+GotoPage &quot;Home&quot;</click>
+						</PushButton>
+						<Headline id="r12">
+							<left>37px</left>
+							<top>536px</top>
+							<width>339px</width>
+							<height>100px</height>
+							<style>color:yellow;font-size:13pt;font-style:italic;font-weight:600;text-align:left</style>
+							<text>[q12d]</text>
+						</Headline>
+						<Image id="Image13">
+							<left>16px</left>
+							<top>7px</top>
+							<width>383px</width>
+							<height>54px</height>
+							<style>opacity:0.41</style>
+							<source>Soabar long.jpg</source>
+						</Image>
+						<Headline id="Headline47">
+							<left>108px</left>
+							<top>12px</top>
+							<width>290px</width>
+							<height>43px</height>
+							<style>color:#D0EA2B;font-size:14pt;font-weight:800</style>
+							<text>Helping with GPSRregulations</text>
+						</Headline>
+						<Headline id="Headline67">
+							<left>18px</left>
+							<top>63px</top>
+							<width>376px</width>
+							<height>28px</height>
+							<style>color:#E0E0E0;font-size:14pt;font-weight:800</style>
+							<text>[quiz]</text>
+						</Headline>
+						<Headline id="Headline30">
+							<left>30px</left>
+							<top>90px</top>
+							<width>355px</width>
+							<height>174px</height>
+							<style>color:#FFFF00;font-family:Times New Roman,Times,serif;animation-delay:1s;animation-duration:4s</style>
+							<text>Quiz Question 12:&lt;br&gt;&lt;sub&gt;[Question12]&lt;/sub&gt;</text>
+						</Headline>
+						<PushButton id="PushButton29">
+							<left>326px</left>
+							<top>691px</top>
+							<width>57px</width>
+							<height>35px</height>
+							<style>opacity:0.39</style>
+							<caption>End</caption>
+							<click>GotoPage &quot;Home&quot;</click>
+						</PushButton>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+		<PageList name="Master">
+			<Components>
+				<Page id="MasterPage"/>
+			</Components>
+		</PageList>
+		<PageList name="Dialog">
+			<Components>
+				<Page id="NewDialog">
+					<Components>
+						<DialogContainer id="DialogContainer1">
+							<left>0px</left>
+							<top>0px</top>
+							<width>414px</width>
+							<height>736px</height>
+							<close_button>False</close_button>
+							<kind>custom</kind>
+						</DialogContainer>
+					</Components>
+				</Page>
+			</Components>
+		</PageList>
+	</Components>
+</Application>
